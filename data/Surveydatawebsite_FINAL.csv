@@ -1,0 +1,79 @@
+Name,Country,UN Region Level 1,UN Region Level 2,Population,POINT_X,POINT_Y,GDP ($PPP 2013),GDP/Capita (per country) 2013 - World Bank Data,Expenditure,Revenue,Voters Turnout (latest election),Policy sectors count,Local policies count,Size
+Abuja,Nigeria,Western Africa,Africa,1405201,7.483333,9.066667,7000000000,3005.5,1050000000,n/a,n/a,n/a,3,1m - 5m
+Addis Ababa,Ethiopia,Eastern Africa,Africa,3104000,38.75776,8.980603,2210000000,505,n/a,n/a,50.0%,7,0,1m - 5m
+Alaverdi,Armenia,Western Asia,Asia,13180,44.659063,41.091873,436.3,3090,n/a,n/a,n/a,9,5,<0.5m
+Alfândega da Fé,Portugal,Southern Europe,Europe,5000,-6.960181,41.344363,5120000,21738.3,6400000,6400000,60.0%,7,4,<0.5m
+Alicante,Spain,Southern Europe,Europe,335052,-0.490686,38.345996,218969424.9,29882.1,243299357.4,232936244.3,43.7500%,10,5,<0.5m
+Amsterdam,The Netherlands,Western Europe,Europe,813562,4.895168,52.370216,3844170,50792.5,4271300000,2567400000,52.700%,n/a,3,0.5m - 1m
+Antananarivo,Madagascar,Eastern Africa,Africa,1391433,47.516667,-18.933333,6003745,463,5835300000,6162900000,58.00%,10,3,1m - 5m
+Arlington,United States of America,Northern America,Northern America,43305,-97.108066,32.735687,133075068,53042,133075068,133075068,n/a,7,4,<0.5m
+Artik,Armenia,Western Asia,Asia,19534,43.975833,40.617222,776547,3090,5859549767,5952397533,62.00%,n/a,5,<0.5m
+Asker,Norway,Northern Europe,Europe,58000,10.437209,59.833334,498384995,100898.4,6000000000,3960000000,70.0%,11,5,<0.5m
+Auckland,New zealand,Melanesia,Oceania,1400000,174.763332,-36.84846,3436400000,41824.3,60282652.55,63259505.93,36.00%,n/a,4,1m - 5m
+Aviles,Spain,Southern Europe,Europe,82427,-5.924665,43.557952,60282660.6,29882.1,1240524780,1244837490,64.200%,10,5,<0.5m
+Barcelona,Spain,Southern Europe,Europe,1611822,2.173404,41.385064,1850850,29882.1,2056500000,2250180000,53.00%,8,4,1m - 5m
+Bilbao,Spain,Southern Europe,Europe,347278,-2.934985,43.263013,393568341.3,29882.1,393568333.5,414026266.8,61.1400%,7,4,<0.5m
+Blumenau,Brazil,South America,Latin America and the Caribbean,324767,-49.071743,-26.916621,303259685,15898,653413917.1,653413917.1,84.4600%,10,3,<0.5m
+Budapest,Hungary,Eastern Europe,Europe,1732000,19.040235,47.497912,1130364707,13485.5,n/a,n/a,43.5900%,6,4,1m - 5m
+Cantagalo ,Brazil,South America,Latin America and the Caribbean,19870,-42.362576,-21.980272,24541995,15898,52852410.03,53287515.05,87.00%,5,5,<0.5m
+Cartagena,Colombia,South America,Latin America and the Caribbean,987000,-75.533577,10.41373,631579000,7831.2,378947400,384000000,29.00%,9,4,0.5m - 1m
+Centelles,Spain,Southern Europe,Europe,7367,2.222227,41.797375,4505641.2,29882.1,5006268,5790708,63.200%,7,3,<0.5m
+Durban,South Africa,Southern Africa,Africa,3500000,31.02184,-29.85868,1069598010,6886.3,6500000000,7500000000,60.0%,11,3,1m - 5m
+Elvas,Portugal,Southern Europe,Europe,23078,-7.163664,38.880279,21975555.2,21738.3,21975548.1,23728196.97,29.5200%,n/a,4,<0.5m
+Fagara,Romania,Eastern Europe,Europe,32440,24.974167,45.844722,1999276,9490.8,4000000,1250000,30.0%,11,4,<0.5m
+Fortaleza,Brazil,South America,Latin America and the Caribbean,2800000,-38.526739,-3.731903,11239500,15898,24242197,26099703,80.0%,1,5,1m - 5m
+City of Gaza,Palestine,Western Asia,Asia,477271,34.352024,31.412511,72727220,876,79999942,78595965,n/a,5,1,<0.5m
+Ghent,Belgium,Western Europe,Europe,250284,3.717424,51.054342,914395013.2,46929.6,831268193.8,826870480.7,90.3200%,7,5,<0.5m
+Gothenburg,Sweden,Northern Europe,Europe,533260,11.97456,57.70887,3730276267,60380.9,39952900000,42060200000,74.100%,8,2,0.5m - 1m
+Graz,Austria,Western Europe,Europe,305000,15.439504,47.070714,1019349469,50510.7,926681336,922594627,55.4700%,8,4,<0.5m
+Hunedoara,Romania,Eastern Europe,Europe,58755,22.920278,45.769722,26940245,9490.8,49000000,45000000,46.1700%,11,5,<0.5m
+Hyderabad ,India,South-Central asia,Asia,6809970,78.486671,17.385044,723170214,1497.5,13797000000,4320000000,46.00%,3,2,5m - 10m
+Ilo,Peru,South America,Latin America and the Caribbean,63780,-71.345314,-17.645858,n/a,6661.6,150887547,212175015,n/a,7,5,<0.5m
+Istanbul,Turkey,Western Asia,Asia,14160467,29.272754,40.964131,3700000000,10971.7,2220000000,2040000000,90.6600%,n/a,2,5m - 10m
+Kajaran,Armenia,Western Asia,Asia,7354,46.16,39.151111,640443,3090,121153.84,121153.84,69.600%,11,0,<0.5m
+Khan Yunis,Palestine,Western Asia,Asia,230000,34.299682,31.349977,4500000,876,4950000,2750000,n/a,9,2,<0.5m
+La Paz,Bolivia,South America,Latin America and the Caribbean,840207,-68.15,-16.5,1800000000,2867.6,900000000,900000000,72.00%,8,2,0.5m - 1m
+Latina,Italy,Southern Europe,Europe,132632,12.903596,41.467567,203200059,35685.6,"203199965,94","87571401,86",79.0900%,9,4,<0.5m
+Leiria,Portugal,Southern Europe,Europe,126897,-8.807683,39.749533,48725176,21738.3,48725169.3,51816482.07,49.8200%,n/a,5,<0.5m
+L'Eliana,Spain,Southern Europe,Europe,17292,-0.534054,39.56667,13770000,29882.1,15300000,15660000,78.00%,1,3,<0.5m
+Leuven,Belgium,Western Europe,Europe,98539,4.7,50.883333,1045000,46929.6,n/a,n/a,100%,11,3,<0.5m
+Lisbon,Portugal,Western Europe,Europe,547733,-9.139337,38.722252,349416000,21738.3,388240000,393280000,45.00%,8,5,0.5m - 1m
+Liverpool,United Kingdom,Northern Europe,Europe,469700,-2.991573,53.408371,1646448210,41781.1,1632841200,1062619200,30.700%,8,4,<0.5m
+London,United Kingdom,Northern Europe,Europe,8416500,-0.127758,51.507351,21210453000,41781.1,21035160000,13346160000,38.00%,8,3,5m - 10m
+Lousada,Portugal,Southern Europe,Europe,47387,-8.283738,41.277479,19801436,21738.3,19801429.46,19798608.02,69.7900%,4,3,<0.5m
+Madrid,Spain,Southern Europe,Europe,3166130,-3.70379,40.416775,3948531445,29882.1,4387257161,4770871601,67.2200%,9,5,1m - 5m
+Malaga,Spain,Southern Europe,Europe,575127,-4.421266,36.721261,599735097.8,29882.1,666372330.9,673685033.4,55.5900%,7,5,0.5m - 1m
+Maputo,Mozambique,Eastern Africa,Africa,1225869,32.583333,-25.966667,24228355,3054.1,927888500,939903500,24.4500%,6,4,1m - 5m
+Mexico City,Mexico,Central America,Latin America and the Caribbean,8851080,-99.133208,19.432608,12000000000,10307.3,12000000000,12500000000,65.9800%,10,4,5m - 10m
+Monteria,Colombia,South America,Latin America and the Caribbean,409476,-75.883333,8.75,n/a,7831.2,n/a,n/a,n/a,n/a,3,<0.5m
+Montreal,Canada,Northern America,Northern America,1168000,-73.553992,45.50867,117532000,51964.3,5500000000,5500000000,42.3300%,7,3,1m - 5m
+Nilüfer/Bursa,Turkey,Western Asia,Asia,358265,28.944131,40.287761,82256831,10971.7,132000000,120000000,55.00%,n/a,1,<0.5m
+Oradea ,Romania,Eastern Europe,Europe,196367,21.921111,47.072222,39791315.5,9490.8,159222893.5,220737222,n/a,8,4,<0.5m
+Pasto ,Colombia,South America,Latin America and the Caribbean,360238,-77.277222,1.207778,7200000000,7831.2,n/a,n/a,20.0%,10,5,<0.5m
+Philadelphia,United States of America,Northern America,Northern America,1553165,-75.163789,39.952335,3589223000,53042,7200000000,2760000000,22.5300%,10,4,1m - 5m
+Port Harcourt,Nigeria,Western Africa,Africa,1050000,7.049844,4.815554,43628568,3005.5,n/a,n/a,46.5900%,1,0,1m - 5m
+Portimao,Portugal,Southern Europe,Europe,55614,-8.533506,37.141785,n/a,21738.3,34902854.4,21468662.4,n/a,8,5,<0.5m
+Porto Alegre,Brazil,South America,Latin America and the Caribbean,1409351,-51.217658,-30.034656,1378360867,15898,n/a,n/a,55.600%,n/a,1,1m - 5m
+Putina,Peru,South America,Latin America and the Caribbean,20792,-69.874893,-14.91256,19577445.56,6661.6,29366168.34,29366168.34,n/a,7,2,<0.5m
+Rimini,Italy,Southern Europe,Europe,146854,12.569516,44.067829,218697455.8,35685.6,"218697455,82","211660744,29",80.1600%,10,5,<0.5m
+Rio de Janeiro,Brazil,South America,Latin America and the Caribbean,6300000,-43.197026,-22.908308,70497690200,15898,15260000000,15260000000,n/a,9,3,5m - 10m
+Sakarya,Turkey,Western Asia,Asia,917373,30.4,40.783333,124000000,10971.7,74400000,67800000,n/a,10,4,0.5m - 1m
+Salto de Pirapora,Brazil,South America,Latin America and the Caribbean,42000,-47.574777,-23.647877,30721470,15898,66500000,64400000,n/a,9,2,<0.5m
+Santa Maria da Feira,Portugal,Southern Europe,Europe,140000,-8.548325,40.926794,58400000,21738.3,58400000,58400000,58.00%,9,4,<0.5m
+Santander ,Spain,Southern Europe,Europe,178465,-3.80998,43.462306,151498182.6,29882.1,151498175.2,164313370.7,n/a,10,4,<0.5m
+Sheffield,United Kingdom,Western Europe,Europe,552698,-1.470085,53.381129,1729090000,41781.1,1714800000,1714800000,35.8200%,8,5,0.5m - 1m
+Stockholm,Sweden,Northern Europe,Europe,905184,18.068581,59.329323,5687723587,60380.9,61009000000,65686400000,82.00%,8,4,0.5m - 1m
+Sultanbeyli,Turkey,Western Asia,Asia,298143,28.97696,41.00527,39590648,10971.7,63600000,58800000,76.2500%,9,4,<0.5m
+Tampere,Finland,Nothern Europe,Europe,220618,23.766667,61.5,,49150.6,2500320000,2825760000,56.300%,11,5,<0.5m
+Tehran,Iran,South-Central asia,Asia,8000000,51.423056,35.696111,5131500000,4763.3,n/a,n/a,40.0%,10,1,5m - 10m
+Tepebasi ,Turkey,Western Asia,Asia,314599,30.481845,39.899874,127225492,10971.7,76335295.2,60819299.4,90.5800%,4,4,<0.5m
+Teruel,Spain,Southern Europe,Europe,35841,-1.106434,40.345688,,29882.1,n/a,n/a,n/a,n/a,1,<0.5m
+Toronto,Canada,Northern America,Northern America,2700000,-79.383184,43.653226,6000000000,51964.3,6600000000,6050000000,46.00%,7,4,1m - 5m
+Tunja,Colombia,South America,Latin America and the Caribbean,181418,-73.366667,5.533333,74013216,7831.2,n/a,n/a,65.00%,10,5,<0.5m
+Vanadzor,Armenia,Western Asia,Asia,84700,44.488333,40.812778,n/a,3090,n/a,n/a,n/a,n/a,1,<0.5m
+Vancouver,Canada,Northern America,Northern America,2450000,-123.113927,49.261226,647000002,51964.3,711810000,711810000,27.00%,5,2,1m - 5m
+Vila do Conde,Portugal,Southern Europe,Europe,79533,-8.747862,41.35173,63018741.6,21738.3,63018735.59,66372430.29,56.1700%,9,3,<0.5m
+Vila Nova de Famalicão,Portugal,Southern Europe,Europe,133974,-8.523732,41.411126,75004576.8,21738.3,75004570.46,75004570.46,64.6500%,9,5,<0.5m
+Vila Pouca de Aguiar,Portugal,Southern Europe,Europe,13187,-7.643232,41.500239,14305356.8,21738.3,14305350.75,14536197.12,55.4600%,8,5,<0.5m
+Villa El Salvador,Peru,South America,Latin America and the Caribbean,388488,-76.941544,-12.216222,27166689,6661.6,67916724,67916724,n/a,8,5,<0.5m
+Viracochan – Ayahuanco,Peru,South America,Latin America and the Caribbean,10000,-74.33068538,-12.59169692,15000000,6661.6,37500000,45000000,65.00%,4,3,<0.5m

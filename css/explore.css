@@ -1,0 +1,130 @@
+#vis{
+	position: relative;
+	margin-left: 0;
+	pointer-events:all;
+	border-bottom: 1px #DBDBDB solid;
+	background:#F2EFED;
+}
+.vis-header{
+	position:relative;
+	background:#F2EFED;
+	height:240px;/*auto*/
+	margin-top:0px;
+	z-index:110;
+	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+  	border-bottom: 1px #DBDBDB solid;
+}
+.vis-header .row .col-md-6 {
+	padding:6px;
+	height:auto;
+}
+.vis-header .row .col-md-3 {
+	padding:6px 10px 4px;
+	height:auto;
+}
+/* vis */
+.city circle {
+	/*stroke: #FFF;
+	stroke-width: 1;*/
+	shape-rendering: geometricPrecision;
+}
+
+/* dropdown */
+.dropdown{
+	font-family: 'Lato', sans-serif;
+	/*z-index: 200;*/
+}
+.dropdown #mainitem, .dropdown #mainitem-sort{
+	height:32px;
+	margin:0px;
+	padding:0;
+	cursor:pointer;
+	border: 1px #DBDBDB solid;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-mozilla-border-radius: 4px;
+	font-size: 14px;
+	color: #A8A8A8;
+	background: #FFFFFF;
+}
+.dropdown #mainitem{
+	width:240px;
+}
+.dropdown #mainitem-sort, .dropdown #subitem-sort{
+	width:370px;
+}
+.dropdown #mainitem .selected-item,.dropdown #mainitem-sort .selected-item-sort{
+	padding: 3px 0px 0 10px;
+}
+.dropdown .split {
+	height:30px;
+	width:30px;
+	padding:0;
+	background: url(../img/split_button-small_transparent.png) right top #FF0009 no-repeat;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+.dropdown #subitem, .dropdown #subitem-sort {
+	color: #A8A8A8;
+	position:absolute;
+	margin-top:0px;
+	height:auto;
+	background: #FFFFFF;
+	padding: 10px 20px;
+	z-index: 500;
+	-webkit-box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.4);
+}
+.dropdown #subitem{
+	width:230px;
+}
+
+.dropdown ul{
+	list-style-type: none;
+	padding:0px;
+	margin: 0px;
+	cursor:pointer;
+}
+.dropdown ul li{
+	padding: 4px 0;
+}
+.dropdown ul li:hover{
+	color: #000000;
+}
+.colourby{
+	color: #999999;
+	text-align: right;
+	margin-top:5px;
+}
+.label{
+	text-anchor: middle;
+	font-weight: normal;
+}
+.selection-row{
+	padding: 7px 0;
+	border-top: 1px #DBDBDB solid;
+}
+.legend-row{
+	height:auto;
+  	border-top: 1px #DBDBDB solid;
+}
+.legendItem{
+	font-size: 12px;
+	fill:#838383;
+}
+.legenddiv{
+	text-align: center;
+	vertical-align: middle;
+}
+@media(min-width:1200px){
+	.vis-header{
+		height:140px;			
+	}
+}

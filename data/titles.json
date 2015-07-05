@@ -1,0 +1,3089 @@
+[
+      {
+      	"code":"q21",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "If yes, what is the name?",
+                "visible": false,
+                "apply_all_rows": false,
+                "answer_id": "7764599974",
+                "type": "other"
+              },
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7764599976"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7764599977"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Is your city/local government part of a larger metropolitan area with a formal institutional set-up?",
+            "question_id": "673777758"
+          }
+        ],
+        "page_id": "171348093",
+        "position": 18,
+        "heading": "Section C"
+      },
+      {
+      	"code":"q14",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Other (please specify)",
+                "visible": false,
+                "apply_all_rows": false,
+                "answer_id": "7765427817",
+                "type": "other"
+              },
+              {
+                "text": "Percentage",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7765427820"
+              },
+              {
+                "text": "0-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7765427821"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7765427822"
+              },
+              {
+                "text": "20-30",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7765427823"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7765427824"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7765427825"
+              },
+              {
+                "text": "50-60",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7765427826"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7765427827"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7765427828"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7765427829"
+              },
+              {
+                "text": "90-100",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7765427830"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 12,
+                "type": "col",
+                "answer_id": "7765427831"
+              },
+              {
+                "text": "0",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7768482259"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "What is the percentage of total local revenue in your budget?",
+            "question_id": "673878368"
+          }
+        ],
+        "page_id": "171348182",
+        "position": 12,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q15",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7768746928"
+              },
+              {
+                "text": "Taxes (property tax, income tax)",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7768746930"
+              },
+              {
+                "text": "Users fees (tariffs)",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7768746931"
+              },
+              {
+                "text": "Sale of assets (including land)",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7768746932"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7768746933"
+              },
+              {
+                "text": "0",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7768746934"
+              },
+              {
+                "text": "0-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7768746935"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7768746936"
+              },
+              {
+                "text": "20-30",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7768746938"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7768746939"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7768746940"
+              },
+              {
+                "text": "50-60",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7768746941"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7768746942"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7768746943"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7768746944"
+              },
+              {
+                "text": "90-100",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7768746945"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 12,
+                "type": "col",
+                "answer_id": "7768746946"
+              }
+            ],
+            "position": 2,
+            "heading": "And within the local revenue, what is the estimated percentage of...",
+            "question_id": "674179162"
+          }
+        ],
+        "page_id": "171348182",
+        "position": 12,
+        "heading": "Section B"
+      },
+      {
+        "code":"q03",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7754529227"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7754529228"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Does your city have a Mayor?",
+            "question_id": "672810694"
+          }
+        ],
+        "page_id": "171348291",
+        "position": 3,
+        "heading": "Section A"
+      },
+      {
+        "code":"q26",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7779709530"
+              },
+              {
+                "text": "Voting/Elections",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7779709532"
+              },
+              {
+                "text": "Public consultation/Public hearings",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7779709533"
+              },
+              {
+                "text": "Formal petitions",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7779709534"
+              },
+              {
+                "text": "Online engagement (petitions, complaint forms, etc.)",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7779709535"
+              },
+              {
+                "text": "Participatory Budgeting",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7779709536"
+              },
+              {
+                "text": "None",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7779709537"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7779709538"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7779709539"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "multiple_choice"
+            },
+            "heading": "In what capacity can citizens influence local policies?",
+            "question_id": "673780492"
+          }
+        ],
+        "page_id": "171349281",
+        "position": 23,
+        "heading": "Section D"
+      },
+      {
+      	"code":"q29",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Can you give a brief description of any such mechanisms.",
+                "visible": false,
+                "apply_all_rows": false,
+                "answer_id": "7755379000",
+                "type": "other"
+              },
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7755379003"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7755379004"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Are there any formal mechanisms that exist to report cases of corruption?",
+            "question_id": "672834993"
+          }
+        ],
+        "page_id": "171350240",
+        "position": 26,
+        "heading": "Section D"
+      },
+      {
+      	"code":"q31",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Addiitonal comments",
+                "visible": false,
+                "apply_all_rows": false,
+                "answer_id": "7755354658",
+                "type": "other"
+              },
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7755354661"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7755354662"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Does your city/local government have a strategic plan?",
+            "question_id": "672836240"
+          }
+        ],
+        "page_id": "171350390",
+        "position": 28,
+        "heading": "Section E"
+      },
+      {
+      	"code":"q33",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780138621"
+              },
+              {
+                "text": "Population models",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780138624"
+              },
+              {
+                "text": "Spatial growth models",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780138625"
+              },
+              {
+                "text": "Transport models",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7780138626"
+              },
+              {
+                "text": "Climate models",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7780138627"
+              },
+              {
+                "text": "Other modeling",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7780138628"
+              },
+              {
+                "text": "Backcasting (e.g. for strategic targets such as carbon reduction, poverty reduction, etc.)",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7780138629"
+              },
+              {
+                "text": "Forecasting (e.g. economic, employment or population growth)",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7780138630"
+              },
+              {
+                "text": "Scenarios (e.g. urban development)",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7780138631"
+              },
+              {
+                "text": "None of the above",
+                "visible": true,
+                "position": 9,
+                "type": "row",
+                "answer_id": "7780138632"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 10,
+                "type": "row",
+                "answer_id": "7780138633"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "multiple_choice"
+            },
+            "heading": "Does your city/local government use any planning instruments or processes to help you plan for the future?",
+            "question_id": "673788955"
+          }
+        ],
+        "page_id": "171350781",
+        "position": 30,
+        "heading": "Section E"
+      },
+      {
+      	"code":"q36",
+        "questions": [
+          {
+            "type": {
+              "subtype": "multi",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [
+              {
+                "text": "1",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7779871772"
+              },
+              {
+                "text": "2",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7779871773"
+              },
+              {
+                "text": "3",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7779871774"
+              }
+            ],
+            "position": 1,
+            "heading": "What are the three biggest urban governance challenges your city/local government faces?",
+            "question_id": "673789899"
+          }
+        ],
+        "page_id": "171351861",
+        "position": 33,
+        "heading": "Section F"
+      },
+      {
+      	"code":"q04",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7774261411"
+              },
+              {
+                "text": "directly elected (by popular vote)",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7774261413"
+              },
+              {
+                "text": "indirectly elected (by city assembly)",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7774261414"
+              },
+              {
+                "text": "appointed (by other tiers of government)",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7774261415"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7774261416"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Is he/she...",
+            "question_id": "672811023"
+          }
+        ],
+        "page_id": "171570463",
+        "position": 4,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q05",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780005569"
+              },
+              {
+                "text": "Mayor",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780005572"
+              },
+              {
+                "text": "Council",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780005573"
+              },
+              {
+                "text": "Cabinet",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7780005574"
+              },
+              {
+                "text": "City manager",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7780005575"
+              },
+              {
+                "text": "State appointed official",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7780005576"
+              },
+              {
+                "text": "Central government appointed official",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7780005577"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7780005578"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7780005579"
+              },
+              {
+                "text": "Executive",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7780005580"
+              },
+              {
+                "text": "Legislative",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7780005581"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "multi",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "Who holds the executive and legislative power in your city/local government?",
+            "question_id": "673974246"
+          }
+        ],
+        "page_id": "171570482",
+        "position": 5,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q13",
+        "questions": [
+          {
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "answers": [
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780084188"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780084189"
+              }
+            ],
+            "position": 1,
+            "heading": "Does your city/local government have the power to introduce new taxes under existing legislation?",
+            "question_id": "672823019"
+          }
+        ],
+        "page_id": "171571892",
+        "position": 11,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q40",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Additional comments:",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7787850733"
+              },
+              {
+                "text": "Urban Design/Walking",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7787850735"
+              },
+              {
+                "text": "Cycling",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7787850736"
+              },
+              {
+                "text": "Motorbike",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7787850737"
+              },
+              {
+                "text": "Paratransit e.g. cyle taxi services, mini-bus services",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7787850738"
+              },
+              {
+                "text": "Taxi",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7787850739"
+              },
+              {
+                "text": "Bus - infrastructure",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7787850740"
+              },
+              {
+                "text": "Bus - operations",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7787850741"
+              },
+              {
+                "text": "Tram (light rail) - infrastructure",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7787850742"
+              },
+              {
+                "text": "Tram (light rail) - operations",
+                "visible": true,
+                "position": 9,
+                "type": "row",
+                "answer_id": "7787850743"
+              },
+              {
+                "text": "Underground/metro - infrastructure",
+                "visible": true,
+                "position": 10,
+                "type": "row",
+                "answer_id": "7787850744"
+              },
+              {
+                "text": "Underground/metro - operations",
+                "visible": true,
+                "position": 11,
+                "type": "row",
+                "answer_id": "7787850745"
+              },
+              {
+                "text": "Suburban rail - infrastructure",
+                "visible": true,
+                "position": 12,
+                "type": "row",
+                "answer_id": "7787850746"
+              },
+              {
+                "text": "Suburban rail - operations",
+                "visible": true,
+                "position": 13,
+                "type": "row",
+                "answer_id": "7787850747"
+              },
+              {
+                "text": "Local roads/smaller streets - infrastructure",
+                "visible": true,
+                "position": 14,
+                "type": "row",
+                "answer_id": "7787850748"
+              },
+              {
+                "text": "Local roads/smaller streets - operations",
+                "visible": true,
+                "position": 15,
+                "type": "row",
+                "answer_id": "7787850749"
+              },
+              {
+                "text": "Main roads/larger streets - infrastructure",
+                "visible": true,
+                "position": 16,
+                "type": "row",
+                "answer_id": "7787850750"
+              },
+              {
+                "text": "Main roads/larger streets - operations",
+                "visible": true,
+                "position": 17,
+                "type": "row",
+                "answer_id": "7787850751"
+              },
+              {
+                "text": "Highways - infrastructure",
+                "visible": true,
+                "position": 18,
+                "type": "row",
+                "answer_id": "7787850752"
+              },
+              {
+                "text": "Highways - operations",
+                "visible": true,
+                "position": 19,
+                "type": "row",
+                "answer_id": "7787850753"
+              },
+              {
+                "text": "Traffic management",
+                "visible": true,
+                "position": 20,
+                "type": "row",
+                "answer_id": "7787850754"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850756"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850757"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850758"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850759"
+                  }
+                ],
+                "visible": true,
+                "text": "Below City Level (e.g. Borough/ Ward/ District)",
+                "position": 1,
+                "type": "col",
+                "answer_id": "7787850755"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850761"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850762"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850763"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850764"
+                  }
+                ],
+                "visible": true,
+                "text": "City",
+                "position": 2,
+                "type": "col",
+                "answer_id": "7787850760"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850766"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850767"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850768"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850769"
+                  }
+                ],
+                "visible": true,
+                "text": "Metropolitan Area",
+                "position": 3,
+                "type": "col",
+                "answer_id": "7787850765"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850771"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850772"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850773"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850774"
+                  }
+                ],
+                "visible": true,
+                "text": "State/Region",
+                "position": 4,
+                "type": "col",
+                "answer_id": "7787850770"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850776"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850777"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850778"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850779"
+                  }
+                ],
+                "visible": true,
+                "text": "National/ Central/ Federal Government",
+                "position": 5,
+                "type": "col",
+                "answer_id": "7787850775"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7787850781"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7787850782"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7787850783"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7787850784"
+                  }
+                ],
+                "visible": true,
+                "text": "Other",
+                "position": 6,
+                "type": "col",
+                "answer_id": "7787850780"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "menu",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "Please rate the level of influence that different tiers of government have over decision making in the transport sector in your city. <br><br>(0=no influence; 1=limited influence; 2=moderate influence; 3=significant influence)",
+            "question_id": "673793422"
+          }
+        ],
+        "page_id": "171577181",
+        "position": 37,
+        "heading": "Section G"
+      },
+      {
+      	"code":"q12",
+        "questions": [
+          {
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "answers": [
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780079794"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780079795"
+              }
+            ],
+            "position": 1,
+            "heading": "Does your city/local government have its own taxes?",
+            "question_id": "673798545"
+          }
+        ],
+        "page_id": "171577396",
+        "position": 10,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q25",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Additional comments",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780110119"
+              },
+              {
+                "text": "Urban transport",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780110122"
+              },
+              {
+                "text": "Spatial planning",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780110123"
+              },
+              {
+                "text": "Economic development",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7780110124"
+              },
+              {
+                "text": "Social services",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7780110125"
+              },
+              {
+                "text": "Environment",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7780110126"
+              },
+              {
+                "text": "Utilities",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7780110127"
+              },
+              {
+                "text": "Health",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7780110128"
+              },
+              {
+                "text": "Education",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7780110129"
+              },
+              {
+                "text": "Housing",
+                "visible": true,
+                "position": 9,
+                "type": "row",
+                "answer_id": "7780110130"
+              },
+              {
+                "text": "Policing and security",
+                "visible": true,
+                "position": 10,
+                "type": "row",
+                "answer_id": "7780110131"
+              },
+              {
+                "text": "Culture",
+                "visible": true,
+                "position": 11,
+                "type": "row",
+                "answer_id": "7780110132"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110134"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110135"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110136"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110137"
+                  }
+                ],
+                "visible": true,
+                "text": "Below City Level (e.g. Borough/ Ward/ District)",
+                "position": 1,
+                "type": "col",
+                "answer_id": "7780110133"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110139"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110140"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110141"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110142"
+                  }
+                ],
+                "visible": true,
+                "text": "City",
+                "position": 2,
+                "type": "col",
+                "answer_id": "7780110138"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110144"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110145"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110146"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110147"
+                  }
+                ],
+                "visible": true,
+                "text": "Metropolitan Area",
+                "position": 3,
+                "type": "col",
+                "answer_id": "7780110143"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110149"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110150"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110151"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110152"
+                  }
+                ],
+                "visible": true,
+                "text": "State/Region",
+                "position": 4,
+                "type": "col",
+                "answer_id": "7780110148"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110154"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110155"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110156"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110157"
+                  }
+                ],
+                "visible": true,
+                "text": "National/ Central/ Federal Government",
+                "position": 5,
+                "type": "col",
+                "answer_id": "7780110153"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7780110159"
+                  },
+                  {
+                    "text": "1",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7780110160"
+                  },
+                  {
+                    "text": "2",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7780110161"
+                  },
+                  {
+                    "text": "3",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7780110162"
+                  }
+                ],
+                "visible": true,
+                "text": "Other",
+                "position": 6,
+                "type": "col",
+                "answer_id": "7780110158"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "menu",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "Please rate the level of influence that different tiers of government have over decision making in the following policy sectors for your city/local government <br><br>(0 = no influence; 1 = limited influence; 2= moderate influence; 3= significant influence)\t ",
+            "question_id": "673779912"
+          }
+        ],
+        "page_id": "171578438",
+        "position": 22,
+        "heading": "Section C"
+      },
+      {
+        "code":"q24",
+        "questions": [
+          {
+            "type": {
+              "subtype": "multi",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [
+              {
+                "text": "1",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7777185420"
+              },
+              {
+                "text": "2",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7777185421"
+              },
+              {
+                "text": "3",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7777185422"
+              },
+              {
+                "text": "4",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7777185423"
+              },
+              {
+                "text": "5",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7777185424"
+              }
+            ],
+            "position": 1,
+            "heading": "Please list them in the following fields, ordered by size from largest to smallest",
+            "question_id": "673778758"
+          }
+        ],
+        "page_id": "171578464",
+        "position": 21,
+        "heading": "Section C"
+      },
+      {
+        "code":"q17",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "answers": [
+              {
+                "text": "Exact percentage, if known.",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780090670"
+              },
+              {
+                "text": "Publicly owned land",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780090672"
+              },
+              {
+                "text": "0",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7780090673"
+              },
+              {
+                "text": "0-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7780090674"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7780090675"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7780090676"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7780090677"
+              },
+              {
+                "text": "50-60",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7780090678"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7780090679"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7780090680"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7780090681"
+              },
+              {
+                "text": "90-100",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7780090682"
+              },
+              {
+                "text": "I dont know.",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7780090683"
+              }
+            ],
+            "position": 1,
+            "heading": "What is the percentage of publicly owned land out of the total land area of the municipality/local government area?",
+            "question_id": "674224661"
+          }
+        ],
+        "page_id": "171578559",
+        "position": 14,
+        "heading": "Section B"
+      },
+      {
+        "code":"q19",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Additional comments",
+                "visible": false,
+                "apply_all_rows": false,
+                "answer_id": "7755376500",
+                "type": "other"
+              },
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7755376503"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7755376504"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7769089281"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Does the city/local government have the legal ability to borrow money?",
+            "question_id": "672825335"
+          }
+        ],
+        "page_id": "171579070",
+        "position": 16,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q32",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Name of the strategic plan",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7797005249"
+              },
+              {
+                "text": "Year/Time Period",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7797005251"
+              },
+              {
+                "visible": true,
+                "text": "Year",
+                "position": 1,
+                "type": "col",
+                "answer_id": "7797005252"
+              },
+              {
+                "items": [
+                  {
+                    "text": "0-5 years",
+                    "visible": true,
+                    "position": 1,
+                    "type": "col_choice",
+                    "answer_id": "7797005275"
+                  },
+                  {
+                    "text": "5-10 years",
+                    "visible": true,
+                    "position": 2,
+                    "type": "col_choice",
+                    "answer_id": "7797005276"
+                  },
+                  {
+                    "text": "10-15 years",
+                    "visible": true,
+                    "position": 3,
+                    "type": "col_choice",
+                    "answer_id": "7797005277"
+                  },
+                  {
+                    "text": "15-20 years",
+                    "visible": true,
+                    "position": 4,
+                    "type": "col_choice",
+                    "answer_id": "7797005278"
+                  },
+                  {
+                    "text": "20-25 years",
+                    "visible": true,
+                    "position": 5,
+                    "type": "col_choice",
+                    "answer_id": "7797005279"
+                  },
+                  {
+                    "text": "25-30 years",
+                    "visible": true,
+                    "position": 6,
+                    "type": "col_choice",
+                    "answer_id": "7797005280"
+                  },
+                  {
+                    "text": ">30 years",
+                    "visible": true,
+                    "position": 7,
+                    "type": "col_choice",
+                    "answer_id": "7797005281"
+                  }
+                ],
+                "visible": true,
+                "text": "Time Period",
+                "position": 2,
+                "type": "col",
+                "answer_id": "7797005274"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "menu",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "What is the name of the plan, in what year was the latest edition published and what time period does it cover?",
+            "question_id": "674184860"
+          }
+        ],
+        "page_id": "171580257",
+        "position": 29,
+        "heading": "Section E"
+      },
+      {
+        "code":"q41",
+        "questions": [
+          {
+            "type": {
+              "subtype": "essay",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [],
+            "position": 1,
+            "heading": "Is there anything else you would like to tell us about your city's governance that the survey did not cover? Any other comments?",
+            "question_id": "673803313"
+          },
+          {
+            "type": {
+              "subtype": "descriptive_text",
+              "name": "",
+              "family": "presentation"
+            },
+            "answers": [
+              {
+                "text": "Contact details",
+                "visible": false,
+                "position": 0,
+                "type": "label",
+                "answer_id": "7768762945"
+              }
+            ],
+            "position": 2,
+            "heading": "*All contact information will be kept confidential.",
+            "question_id": "674187043"
+          }
+        ],
+        "page_id": "171580501",
+        "position": 38,
+        "heading": "Comments"
+      },
+      {
+    	"code":"q37",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780154706"
+              },
+              {
+                "text": "Tax reforms",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780154708"
+              },
+              {
+                "text": "Structural reforms",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780154710"
+              },
+              {
+                "text": "Institutional reforms",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7780154712"
+              },
+              {
+                "text": "Change in national policies affecting local policies",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7780154713"
+              },
+              {
+                "text": "Economic recession",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7780154715"
+              },
+              {
+                "text": "Natural disasters",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7780154717"
+              },
+              {
+                "text": "Political conflict",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7780154720"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7780154721"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "multiple_choice"
+            },
+            "heading": "Have there been any examples of recent disruptions that have affected the way your city/local governmentoperates?<br>",
+            "question_id": "673790865"
+          }
+        ],
+        "page_id": "171580552",
+        "position": 34,
+        "heading": "Section F"
+      },
+      {
+      	"code":"q38",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7779966338"
+              },
+              {
+                "text": "Predictability of resources",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7779966340"
+              },
+              {
+                "text": "Election cycles",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7779966341"
+              },
+              {
+                "text": "Lack of public support",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7779966342"
+              },
+              {
+                "text": "Fragmented local governance",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7779966343"
+              },
+              {
+                "text": "Lack of public funding",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7779966344"
+              },
+              {
+                "text": "Lack of private investment",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7779966345"
+              },
+              {
+                "text": "Lack of skills in the local government",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7779966346"
+              },
+              {
+                "text": "Lack of skills in the local workforce",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7779966347"
+              },
+              {
+                "text": "Lack of private sector support",
+                "visible": true,
+                "position": 9,
+                "type": "row",
+                "answer_id": "7779966348"
+              },
+              {
+                "text": "Lack of state government support",
+                "visible": true,
+                "position": 10,
+                "type": "row",
+                "answer_id": "7779966350"
+              },
+              {
+                "text": "Lack of national government support",
+                "visible": true,
+                "position": 11,
+                "type": "row",
+                "answer_id": "7779966353"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 12,
+                "type": "row",
+                "answer_id": "7779966354"
+              },
+              {
+                "text": "None",
+                "visible": true,
+                "position": 13,
+                "type": "row",
+                "answer_id": "7779966356"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "multiple_choice"
+            },
+            "heading": "Which of the following governance constraints is your city/local government facing?<br><br><br>Please tick all that apply",
+            "question_id": "673983914"
+          }
+        ],
+        "page_id": "171580563",
+        "position": 35,
+        "heading": "Section F"
+      },
+      {
+      	"code":"q34",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7774472513"
+              },
+              {
+                "text": "Yes, but not accountable to city government",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7774472515"
+              },
+              {
+                "text": "Yes, and accountable to city government",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7774472516"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7774472517"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7774472518"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Does the city/local government have an integrated transport authority covering multiple modes of transportation and is it accountable to the city/local government?*",
+            "question_id": "673811482"
+          },
+          {
+            "type": {
+              "subtype": "descriptive_text",
+              "name": "",
+              "family": "presentation"
+            },
+            "answers": [
+              {
+                "text": "Descriptive Text 1",
+                "visible": false,
+                "position": 0,
+                "type": "label",
+                "answer_id": "7779859727"
+              }
+            ],
+            "position": 2,
+            "heading": "*Authority overlooking multiple transport modes within the metropolitan area. ",
+            "question_id": "674196334"
+          }
+        ],
+        "page_id": "171580619",
+        "position": 31,
+        "heading": "Section E"
+      },
+      {
+      	"code":"q27",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7768845619"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7768845620"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7768845621"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Does your city/local government have a quota to ensure representation for underrepresented groups?",
+            "question_id": "674184103"
+          }
+        ],
+        "page_id": "171580632",
+        "position": 24,
+        "heading": "Section D"
+      },
+      {
+      	"code":"q11",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Total",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7777153647"
+              },
+              {
+                "text": "Currency",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7777153649"
+              },
+              {
+                "visible": true,
+                "text": "",
+                "position": 1,
+                "type": "col",
+                "answer_id": "7777153650"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "menu",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "What was the local government revenue for the last financial year?",
+            "question_id": "674218063"
+          }
+        ],
+        "page_id": "171595041",
+        "position": 9,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q20",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Please state the limit.",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7777152188"
+              },
+              {
+                "text": "There is no limit.",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7777152190"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7777152191"
+              },
+              {
+                "text": "There is a limit.",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7777152192"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Is there a limit to borrowing?",
+            "question_id": "673885811"
+          }
+        ],
+        "page_id": "171598370",
+        "position": 17,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q23",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Yes",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7764606811"
+              },
+              {
+                "text": "No",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7764606812"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Are there any layers of government which subdivide your city e.g. at borough, district, ward level? ",
+            "question_id": "673778198"
+          }
+        ],
+        "page_id": "171599062",
+        "position": 20,
+        "heading": "Section C"
+      },
+      {
+      	"code":"q07",
+        "questions": [
+          {
+            "type": {
+              "subtype": "multi",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [
+              {
+                "text": "1. Year",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7791547732"
+              },
+              {
+                "text": "Voter Turnout",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7791547733"
+              },
+              {
+                "text": "2. Year",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7791547734"
+              },
+              {
+                "text": "Voter Turnout",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7791547735"
+              },
+              {
+                "text": "3. Year",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7791547736"
+              },
+              {
+                "text": "Voter Turnout",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7791547737"
+              }
+            ],
+            "position": 2,
+            "heading": "What was the voter turnout in the last three elections for your local government?<br><br>Beginning with the most recent election, please indicate voter turnout in per cent of eligible voters.",
+            "question_id": "673979283"
+          }
+        ],
+        "page_id": "171619530",
+        "position": 6,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q06",
+        "questions": [
+          {
+            "type": {
+              "subtype": "multi",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [
+              {
+                "text": "Population figure",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7791542525"
+              },
+              {
+                "text": "Year",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7791542526"
+              },
+              {
+                "text": "Source",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7791542527"
+              }
+            ],
+            "position": 1,
+            "heading": "What is the most recent official population figure for your city/local government? <br><br>Please provide both the total figure, the year, and the source of the data",
+            "question_id": "674171303"
+          }
+        ],
+        "page_id": "171619530",
+        "position": 6,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q08",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [],
+            "position": 1,
+            "heading": "How many people work for your city/local government?",
+            "question_id": "673979448"
+          }
+        ],
+        "page_id": "171662712",
+        "position": 7,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q09",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "As percentage of total jobs",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780075728"
+              },
+              {
+                "text": "As percentage of total GDP",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780075729"
+              },
+              {
+                "text": "0-5",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7780075731"
+              },
+              {
+                "text": "5-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7780075732"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7780075733"
+              },
+              {
+                "text": "20-30",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7780075734"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7780075736"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7780075737"
+              },
+              {
+                "text": "50-60",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7780075738"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7780075739"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7780075741"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7780075743"
+              },
+              {
+                "text": "> 90",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7780075744"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 12,
+                "type": "col",
+                "answer_id": "7780075745"
+              }
+            ],
+            "position": 2,
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "What is the estimated percentage of the informal economy in your city/local government? <br><br>Please indicate as a percentage of total jobs or as a percentage of total GDP.",
+            "question_id": "673979921"
+          }
+        ],
+        "page_id": "171662712",
+        "position": 7,
+        "heading": "Section A"
+      },
+      {
+      	"code":"q16",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7780087484"
+              },
+              {
+                "text": "State",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7780087488"
+              },
+              {
+                "text": "National",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7780087490"
+              },
+              {
+                "text": "Supranational",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7780087493"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7780087495"
+              },
+              {
+                "text": "0",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7780087496"
+              },
+              {
+                "text": "0-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7780087498"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7780087500"
+              },
+              {
+                "text": "20-30",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7780087503"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7780087505"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7780087507"
+              },
+              {
+                "text": "50-60",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7780087508"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7780087510"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7780087512"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7780087513"
+              },
+              {
+                "text": "90-100",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7780087515"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 12,
+                "type": "col",
+                "answer_id": "7780087518"
+              }
+            ],
+            "position": 1,
+            "heading": "What is the percentage of the local budget that comes from other tiers of government?",
+            "question_id": "674174743"
+          }
+        ],
+        "page_id": "171668163",
+        "position": 13,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q30",
+        "questions": [
+          {
+            "type": {
+              "subtype": "essay",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [],
+            "position": 1,
+            "heading": "Can you give a brief description of any such anti-corruption mechanisms.",
+            "question_id": "674196019"
+          }
+        ],
+        "page_id": "171668952",
+        "position": 27,
+        "heading": "Section D"
+      },
+      {
+      	"code":"q22",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [],
+            "position": 1,
+            "heading": "What is the official name of the metropolitan area?",
+            "question_id": "674206574"
+          }
+        ],
+        "page_id": "171671942",
+        "position": 19,
+        "heading": "Section C"
+      },
+      {
+      	"code":"q28",
+        "questions": [
+          {
+            "type": {
+              "subtype": "essay",
+              "name": "",
+              "family": "open_ended"
+            },
+            "answers": [],
+            "position": 1,
+            "heading": "Which underrepresented groups do you have a quota for?",
+            "question_id": "674209702"
+          }
+        ],
+        "page_id": "171672566",
+        "position": 25,
+        "heading": "Section D"
+      },
+      {
+      	"code":"q18",
+        "questions": [
+          {
+            "type": {
+              "subtype": "single",
+              "name": "",
+              "family": "matrix"
+            },
+            "answers": [
+              {
+                "text": "Please specify",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7779669816"
+              },
+              {
+                "text": "Municipality",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7779669819"
+              },
+              {
+                "text": "State",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7779669820"
+              },
+              {
+                "text": "National",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7779669821"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7779669822"
+              },
+              {
+                "text": "0",
+                "visible": true,
+                "position": 1,
+                "type": "col",
+                "answer_id": "7779669823"
+              },
+              {
+                "text": "0-10",
+                "visible": true,
+                "position": 2,
+                "type": "col",
+                "answer_id": "7779669824"
+              },
+              {
+                "text": "10-20",
+                "visible": true,
+                "position": 3,
+                "type": "col",
+                "answer_id": "7779669825"
+              },
+              {
+                "text": "20-30",
+                "visible": true,
+                "position": 4,
+                "type": "col",
+                "answer_id": "7779669826"
+              },
+              {
+                "text": "30-40",
+                "visible": true,
+                "position": 5,
+                "type": "col",
+                "answer_id": "7779669827"
+              },
+              {
+                "text": "40-50",
+                "visible": true,
+                "position": 6,
+                "type": "col",
+                "answer_id": "7779669828"
+              },
+              {
+                "text": "60-70",
+                "visible": true,
+                "position": 7,
+                "type": "col",
+                "answer_id": "7779669829"
+              },
+              {
+                "text": "70-80",
+                "visible": true,
+                "position": 8,
+                "type": "col",
+                "answer_id": "7779669830"
+              },
+              {
+                "text": "80-90",
+                "visible": true,
+                "position": 9,
+                "type": "col",
+                "answer_id": "7779669831"
+              },
+              {
+                "text": "90-100",
+                "visible": true,
+                "position": 10,
+                "type": "col",
+                "answer_id": "7779669832"
+              },
+              {
+                "text": "I don't know.",
+                "visible": true,
+                "position": 11,
+                "type": "col",
+                "answer_id": "7779669833"
+              }
+            ],
+            "position": 1,
+            "heading": "What is the percentage of land owned by different tiers of government out of the total land area of the municipality/local government? ",
+            "question_id": "673802710"
+          }
+        ],
+        "page_id": "171676392",
+        "position": 15,
+        "heading": "Section B"
+      },
+      {
+      	"code":"q35",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Other (please specify)",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7787847883"
+              },
+              {
+                "text": "Cycling",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7787847885"
+              },
+              {
+                "text": "Motorbike",
+                "visible": true,
+                "position": 2,
+                "type": "row",
+                "answer_id": "7787847886"
+              },
+              {
+                "text": "Paratransit e.g. cyle taxi services, mini-bus services",
+                "visible": true,
+                "position": 3,
+                "type": "row",
+                "answer_id": "7787847887"
+              },
+              {
+                "text": "Taxi",
+                "visible": true,
+                "position": 4,
+                "type": "row",
+                "answer_id": "7787847888"
+              },
+              {
+                "text": "Bus",
+                "visible": true,
+                "position": 5,
+                "type": "row",
+                "answer_id": "7787847889"
+              },
+              {
+                "text": "Tram (light rail)",
+                "visible": true,
+                "position": 6,
+                "type": "row",
+                "answer_id": "7787847890"
+              },
+              {
+                "text": "Underground/metro",
+                "visible": true,
+                "position": 7,
+                "type": "row",
+                "answer_id": "7787847892"
+              },
+              {
+                "text": "Suburban rail",
+                "visible": true,
+                "position": 8,
+                "type": "row",
+                "answer_id": "7787847893"
+              },
+              {
+                "text": "Local/Smaller roads",
+                "visible": true,
+                "position": 9,
+                "type": "row",
+                "answer_id": "7787847894"
+              },
+              {
+                "text": "Main/Larger roads",
+                "visible": true,
+                "position": 10,
+                "type": "row",
+                "answer_id": "7787847895"
+              },
+              {
+                "text": "Highways",
+                "visible": true,
+                "position": 11,
+                "type": "row",
+                "answer_id": "7787847897"
+              },
+              {
+                "text": "Traffic management",
+                "visible": true,
+                "position": 12,
+                "type": "row",
+                "answer_id": "7787847898"
+              },
+              {
+                "text": "Other",
+                "visible": true,
+                "position": 13,
+                "type": "row",
+                "answer_id": "7787847899"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "vertical",
+              "name": "",
+              "family": "single_choice"
+            },
+            "heading": "Which modes does the integrated transport authority manage?",
+            "question_id": "674235430"
+          }
+        ],
+        "page_id": "171678916",
+        "position": 32,
+        "heading": "Section E"
+      },
+     {
+     	"code":"q10",
+        "questions": [
+          {
+            "answers": [
+              {
+                "text": "Total",
+                "visible": true,
+                "apply_all_rows": false,
+                "type": "other",
+                "answer_id": "7777150670"
+              },
+              {
+                "text": "Currency",
+                "visible": true,
+                "position": 1,
+                "type": "row",
+                "answer_id": "7777150672"
+              },
+              {
+                "visible": true,
+                "text": "",
+                "position": 1,
+                "type": "col",
+                "answer_id": "7777150673"
+              }
+            ],
+            "position": 1,
+            "type": {
+              "subtype": "menu",
+              "name": "",
+              "family": "matrix"
+            },
+            "heading": "What was the local government expenditure for the last financial year? ",
+            "question_id": "674211428"
+          }
+        ],
+        "page_id": "171343980",
+        "position": 8,
+        "heading": "Section B"
+      }      
+    ]
