@@ -32,7 +32,7 @@ function loadMap(){
 		.attr("width", width)
 		.attr("height", height);
 	
-	var url = 'app/themes/urbangovernance/'
+	var url = '/app/themes/urbangovernance/'
 	
 	var tooltipdiv = d3.select("body")
 		.append("div")

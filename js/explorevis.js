@@ -481,7 +481,7 @@ d3.selection.prototype.size = function() {
 });*/
 
 function loadVis(){
-	var url = 'app/themes/urbangovernance/';
+	var url = '/app/themes/urbangovernance/';
 	//var url ='';
 	
 	queue()

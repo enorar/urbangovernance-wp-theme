@@ -1300,7 +1300,7 @@ function display(error, borders, cities, surveyData, titles, shortQuestions) {
 }
 
 function loadSurvey(){
-	var url = 'app/themes/urbangovernance/';
+	var url = '/app/themes/urbangovernance/';
 	//var url ='';
 	
 	queue()
