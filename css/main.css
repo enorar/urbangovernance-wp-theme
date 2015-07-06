@@ -233,7 +233,12 @@ html, body{
 
 #main {
   overflow:auto;
-  padding-bottom:50px; /* this needs to be bigger than footer height*/
+  /** 
+   * TECHNICAL_DEBT: margin and padding below should be in a variable also used to set
+   * footer height.
+   */
+  padding-bottom: 2rem; /* padding+margin at the bottom needs to be bigger than footer height*/
+  margin-bottom: 7.5rem;
 }
 .page-id-71 #main{
   padding-bottom:0px;
