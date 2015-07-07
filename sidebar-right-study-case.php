@@ -1,7 +1,7 @@
 <?php if (is_active_sidebar('sidebar-right-study-case')) { ?> 
 				<div class="col-md-3" id="sidebar-right">
 					<div class="details">
-						<h4 class="title">STUDY CASE DETAILS</h4>
+						<h4 class="title">Case study details</h4>
 						<?php 
 						$authors = get_post_meta($post->ID, 'Author', false); 
 						$institutions = get_post_meta($post->ID, 'Institution', false); ?>
