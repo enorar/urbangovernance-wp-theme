@@ -5,7 +5,7 @@
  * main content is shrunk to 9/12 cols and a 3/12 cols sidebar
  * is added with the content of the aside field.
  */
-$pod = pods('page', pods_v('last', 'url'));
+$pod = pods('page', get_the_ID());
 $aside = $pod->display('aside');
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('row'); ?>>
