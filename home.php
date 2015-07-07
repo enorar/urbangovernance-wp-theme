@@ -16,6 +16,9 @@ $counter = 0;
 								<h1 class="entry-title">Case Studies</h1>
 							</div>
 						</div>
+						<?php if ( is_home() ) : ?>
+							<?php get_sidebar('header-home'); ?>
+						<?php endif ?>
 						<div class="row">
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 								<article class="col-md-4" id="post-<?php the_ID(); ?>" role="article">
