@@ -566,6 +566,12 @@ select option:hover{
 .overlay a{
 	color: #FFF;
 }
+
+.front-page-footer-container {
+	background-color: #000;
+	clear: both;
+	padding: 1rem 0;
+}
 .logos {
 	background: #000000;
 	color:#FFFFFF;

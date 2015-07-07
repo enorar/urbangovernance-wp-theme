@@ -22,7 +22,9 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<?php get_template_part('templates/partials/footer', 'logos'); ?>
+				<div class="front-page-footer-container">
+					<?php get_template_part('templates/partials/footer', 'logos'); ?>
+				</div>
 				<div class="col-md-12 home-text-container">
 					<div class="container">				
 						<div class="col-md-12 content-area" id="main-column">
