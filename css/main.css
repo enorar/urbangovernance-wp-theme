@@ -464,15 +464,16 @@ select option:hover{
 	-mozilla-border-radius: 4px;	
 }
 .single-post #sidebar-right .details h4.title{
-	padding-bottom:15px;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
 }
-.single-post #sidebar-right .details h4{
+.single-post #sidebar-right .details h4, .single-post #sidebar-right .details .widget-title {
 	padding-bottom:0;
-	margin-bottom:0;
+	margin-bottom: 0.5rem;
 }
 .single-post #sidebar-right .details li{
    list-style-type: none;
-   padding:0;
+   padding: 0 0 0 1rem;
 }
 .single-post #sidebar-right .details ul{
    padding:0;
