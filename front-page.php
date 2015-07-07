@@ -22,16 +22,7 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="col-md-12 logos">
-					<div class="container">
-						<div class="col-md-8">A collaboration between:<br>
-						<img src="
-<?php bloginfo('template_directory'); ?>/img/logo_lsecities.png" alt="LSE Cities">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logo_unhabitat.png" alt="UN Habitat">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logo_uclg_en.png" alt="UCLG"></div>
-					<div class="col-md-4 right">Supported by: <br> <img src="<?php bloginfo('template_directory'); ?>/img/logo_macarthur.png" alt="MacArthur Foundation"></div>					
-					</div>
-				</div>
+				<?php get_template_part('templates/partials/footer', 'logos'); ?>
 				<div class="col-md-12 home-text-container">
 					<div class="container">				
 						<div class="col-md-12 content-area" id="main-column">
