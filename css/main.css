@@ -232,7 +232,7 @@ html, body{
 }
 
 #main {
-  overflow:auto;
+  overflow: hidden;
   /** 
    * TECHNICAL_DEBT: margin and padding below should be in a variable also used to set
    * footer height.
