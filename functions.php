@@ -100,9 +100,9 @@ if (!function_exists('bootstrapBasicWidgetsInit')) {
 			'before_title'  => '<h1 class="widget-title">',
 			'after_title'   => '</h1>',
 		));
-		/* custom sidebar for urban governance */
+		/* custom sidebar for urban governance: case study sidebar */
 		register_sidebar(array(
-			'name'          => __('Sidebar right study case', 'bootstrap-basic'),
+			'name'          => __('Sidebar right case study', 'bootstrap-basic'),
 			'id'            => 'sidebar-right-study-case',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
