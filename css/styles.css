@@ -403,6 +403,7 @@ input {
 .mail{
 	padding-top: 20px;
 	font-size: 14px;
+	font-weight: bold;
 	pointer-events:all;
 	text-align:right;
 }
@@ -426,7 +427,7 @@ input {
 .logos-vis{
 	padding:10px;
 	color:#FFFFFF;
-	background:#C7C1BD;
+	background:#000;
 	height: 55px;
 }
 .logos-vis h4{
