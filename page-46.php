@@ -61,7 +61,7 @@ get_header();
 			<h4>How Cities are Governed</h4>
 			A global survey by LSE Cities, UN-Habitat and UCLG	
 			</div>
-			<div class="col-md-3 logos-vis"><div class='mail'><a href="mailto:urbangov.survey@gmail.com">Send us your feedback</a></div></div>
+			<div class="col-md-3 logos-vis"><div class='mail'><a href="mailto:survey@urbangovernance.net">Send us your feedback</a></div></div>
 		</div>
 	</div>
 </div>
