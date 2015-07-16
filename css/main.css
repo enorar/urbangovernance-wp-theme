@@ -214,8 +214,7 @@ img.aligncenter {
 	background: #000;
 	font-size: 12px;
 	position: relative;
-	margin-top: -145px; /* negative value of footer height */
-	height: 145px;
+	min-height: 12rem;
 	clear:both;
 	padding-top:10px;
 	right:0;
@@ -233,12 +232,7 @@ html, body{
 
 #main {
   overflow: hidden;
-  /** 
-   * TECHNICAL_DEBT: margin and padding below should be in a variable also used to set
-   * footer height.
-   */
-  padding-bottom: 2rem; /* padding+margin at the bottom needs to be bigger than footer height*/
-  margin-bottom: 7.5rem;
+  padding-bottom: 2rem; 
 }
 .page-id-71 #main{
   padding-bottom:0px;
@@ -678,8 +672,7 @@ circle.selected{
 }
 @media(min-width:1200px){
 	#site-footer {
-		height: 100px;
-		margin-top: -100px; /* negative value of footer height */
+		min-height: 100px;
 	}
 	.single-post .site-content{
 		margin-bottom:100px;	
