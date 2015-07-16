@@ -48,7 +48,7 @@ get_header();
 								<?php } else { ?> 
 								<?php get_template_part('no-results', 'index'); ?>
 								<?php } // endif; ?> 
-								<div class="red-button centered"><a href="?page_id=12&lang=en">View more</a></div>
+								<div class="red-button centered"><a href="?page_id=12&lang=en"><?php echo pll__('View more'); ?></a></div>
 							</main>
 						</div>
 					</div>
