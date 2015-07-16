@@ -573,8 +573,12 @@ select option:hover{
 	font-size: 13px;
 	padding:10px 0;
 }
-.logos img{
-	margin-right:50px;
+.logos img {
+	max-width: 190px;  /* make sure logos are exactly this size to avoid upscaling */
+	width: 100%;	
+}
+.logos a {
+	margin-bottom: 2rem;
 }
 .logos .right{
 	text-align: right;
