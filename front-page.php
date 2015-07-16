@@ -14,11 +14,11 @@ get_header();
 	  				<div class="overlay">
 						<div class="top">
 							<div class="overlay-big">
-								<span id="cities-count"></span> cities</div> 
-								currently included
+								<span id="cities-count"></span> <?php echo pll__('cities')?></div> 
+								<?php echo pll__('currently included')?>
 							</div>
 						<div class="bottom">
-							<a href="?page_id=46&lang=en">See the results</a>
+							<a href="?page_id=46&lang=en"><?php echo pll__('See the results')?></a>
 						</div>
 					</div>
 				</div>
