@@ -230,3 +230,8 @@ require get_template_directory() . '/inc/template-widgets-hook.php';
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+
+/**
+ * Polylang string translation
+ */
+require get_template_directory() . '/inc/translation.php';
