@@ -167,7 +167,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
 		wp_enqueue_script('queue-script', get_template_directory_uri() . '/js/queue.js');
 		wp_enqueue_script('map-script', get_template_directory_uri() . '/js/map.js');
 
-		if (is_page(46)){
+		if (is_page_template('pagetemplate-survey-results.php')){
 			wp_enqueue_script('jquery-sticky', get_template_directory_uri() . '/js/jquery.sticky.js');
 			wp_enqueue_script('jquery-tokeninput', get_template_directory_uri() . '/js/jquery.tokeninput.js');
 			wp_enqueue_script('scroller', get_template_directory_uri() . '/js/scroller.js');
@@ -176,7 +176,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
 			wp_enqueue_style('styles', get_template_directory_uri() . '/css/styles.css');
 			wp_enqueue_style('token-input', get_template_directory_uri() . '/css/token-input.css');				
 		}
-		if (is_page(71)){
+		if (is_page_template('pagetemplate-data-explorer.php')){
 				wp_enqueue_script('jquery2', get_template_directory_uri() . '/js/jquery-1.11.3.min.js');
 			wp_enqueue_script('jquery-sticky', get_template_directory_uri() . '/js/jquery.sticky.js');
 			wp_enqueue_script('explorevis', get_template_directory_uri() . '/js/explorevis.js');
