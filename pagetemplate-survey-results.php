@@ -1,8 +1,10 @@
 <?php
 /**
- * Template for displaying visualisations
+ * Template Name: Survey results
+ * Description: Page template for survey results visualisation
  * 
- * @package bootstrap-basic
+ * @package Urban Governance
+ * @since Urban Governance 1.1
  */
 
 get_header();

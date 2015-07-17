@@ -1,8 +1,10 @@
 <?php
 /**
- * Template for displaying pages
+ * Template Name: Exploring the data
+ * Description: Page template for data explorer
  * 
- * @package bootstrap-basic
+ * @package Urban Governance
+ * @since Urban Governance 1.1
  */
 
 get_header();
