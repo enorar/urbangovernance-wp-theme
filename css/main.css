@@ -3,7 +3,17 @@
    ========================================================================== */
 @import 'flexvideo.css';
 
+main p {
+	margin-bottom: 1.5em;
+}
 
+main li {
+	margin-bottom: 1em;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+	margin-top: 1em;
+}
 
 img.aligncenter {
 	display: block;
@@ -185,7 +195,6 @@ img.aligncenter {
 #main-column .attachment .entry-title, 
 #main-column .post .entry-title,
 #main-column .page .entry-title {
-	margin-top: 0;
 	word-wrap: break-word;
 }
 
