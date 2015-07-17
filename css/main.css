@@ -224,6 +224,7 @@ img.aligncenter {
 /*-- urban governance --*/
 html, body{
 	height: 100%;
+	font-size: 16px;
 }
 
 #main {
