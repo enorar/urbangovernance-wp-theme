@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Blog home
+ * Description: WP Blog home, repurposed to display case studies
  * The main template file
  * 
  * @package bootstrap-basic
