@@ -332,7 +332,7 @@ Header and Primary Menu
 .main-navigation li {
    float: left;
    position: relative;
-   padding: 0px 40px 0 0;
+   padding-right: 1rem;
    list-style-type: none;
 }
 .main-navigation ul > li {
@@ -345,8 +345,8 @@ Header and Primary Menu
    	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-mozilla-border-radius: 4px;
-	padding:8px 20px;
-	font-size: 14px;
+	padding: 0.25rem;
+	font-size: 0.875rem;
 }
 .main-navigation a:hover, .main-navigation .current_page_item a{
 	background:#F2EFED;
