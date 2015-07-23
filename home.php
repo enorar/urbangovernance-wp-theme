@@ -15,7 +15,7 @@ $counter = 0;
 					<main id="main" class="site-main" role="main">
 						<div class="row">
 							<div class="col-md-12">
-								<h1 class="entry-title">Case Studies</h1>
+								<h1 class="entry-title"><? echo pll__('Case studies'); ?></h1>
 							</div>
 						</div>
 						<?php if ( is_home() ) : ?>
