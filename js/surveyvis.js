@@ -25,7 +25,12 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
           'fr-FR': 'Wealth'
         }
       }
-    ]
+    ],
+    income_levels: {
+      'en-EN': [ 'low income', 'middle income', 'high income' ],
+      'es-ES': [ 'low income', 'middle income', 'high income' ],
+      'fr-FR': [ 'low income', 'middle income', 'high income' ]
+    }
   };
   
 	var width = $('#vis').width();
@@ -185,7 +190,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 		.append('g')
 		.attr("transform","translate(0,20)")
 		.selectAll('.legendItem')
-		.data(['low income', 'middle income', 'high income'])  // TRANSLATE
+		.data(language_data.income_levels[current_language])
 		.enter()
 		.append("g")
 		.attr("transform",function(d,i){ return "translate(0,"+ i*22 +")"})
