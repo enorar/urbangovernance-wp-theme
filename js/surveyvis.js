@@ -1270,8 +1270,12 @@ function display(error, borders, cities, surveyData, titles, shortQuestions) {
   // create a new plot and
   // display it
 
-	var plot = scrollVis(borders, cities, surveyData, titles, shortQuestions)
+  // get current page language from the lang attribute of the html
+  // element (this is set by the polylang WP plugin)
+  var current_language = $('html').attr('lang');
 
+	var plot = scrollVis(current_language, borders, cities, surveyData, titles, shortQuestions)
+  
 	d3.select("#vis")
     	.call(plot)	
 
