@@ -63,7 +63,15 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 	var highlightIndex = 0;
 	var highlightIndexId = {};
 	
-	var continentColors = {'Africa':'#D97196','Latin America and the Caribbean':'#F69A4D','Asia':'#8781A7','Europe':'#67B064','Northern America':'#3393C1','Oceania':'#FF0009'};
+  // TRANSLATE
+	var continentColors = {
+    'Africa':'#D97196',
+    'Latin America and the Caribbean':'#F69A4D',
+    'Asia':'#8781A7',
+    'Europe':'#67B064',
+    'Northern America':'#3393C1',
+    'Oceania':'#FF0009'
+  };
 
 	var populationColors = ['#ffCCCD','#ff7f84','#ff0009','#B20006','#7f0004']
 	//['#006799','#2684B2','#4CA2CC','#72BFE5','#99DDFF'].reverse();blue 
