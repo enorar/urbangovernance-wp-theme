@@ -1,4 +1,33 @@
-var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
+var scrollVis = function(current_language, borders, cities, surveyData, titles, shortQuestions){
+  // single object with all variables that require translations
+  var language_data = {
+    colourByOptions: [
+      { id: 'reg',
+        name: {
+          'en-EN': 'World Region',
+          'es-ES': 'World Region',
+          'fr-FR': 'World Region'
+        }
+      },
+      {
+        'id':'pop',
+        'name': {
+          'en-EN': 'Population',
+          'es-ES': 'Population',
+          'fr-FR': 'Population'
+        }
+      },
+      {
+        'id':'gdp',
+        'name': {
+          'en-EN': 'Wealth',
+          'es-ES': 'Wealth',
+          'fr-FR': 'Wealth'
+        }
+      }
+    ]
+  };
+  
 	var width = $('#vis').width();
 	var rawHeight = 500;
 	var margin = {top:20, left:0, bottom:10, right:0};
@@ -175,14 +204,14 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 	var citySelected, citySelectedId;
 
 	//change array depending on language 
-	var colourByOptions= [{'id':'reg','name':'World Region'},{'id':'pop','name':'Population'},{'id':'gdp','name':'Wealth'}];
+	var colourByOptions = language_data.colourByOptions;
 
 	d3.select('#subitem ul').selectAll('li')
 		.data(colourByOptions)
 		.enter()
 		.append('li')
 		.attr('id',function(d){return d.id})
-		.text(function(d){return d.name})
+		.text(function(d){return d.name[current_language]})
 		.on('click', colourBy)
 
   // When scrolling to a new section
@@ -1049,7 +1078,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 	}
 	function colourBy(d){
 		activeColour = d.id;
-		$('.selected-item').text(d.name);
+		$('.selected-item').text(d.name[current_language]);
 		$('#subitem').slideUp()
 		d3.selectAll('.citycircle')
 			.attr('fill', function(g){return circleColour(g)} )
