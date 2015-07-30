@@ -31,6 +31,56 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       'es-ES': [ 'low income', 'middle income', 'high income' ],
       'fr-FR': [ 'low income', 'middle income', 'high income' ]
     },
+    continent_colors: {
+      'Africa': {
+        name: {
+          'en-EN': 'Africa',
+          'es-ES': 'Africa',
+          'fr-FR': 'Africa'
+        },
+        color: '#D97196',
+      },
+      'Latin America and the Caribbean': {
+        name: {
+          'en-EN': 'Latin America and the Caribbean',
+          'es-ES': 'Latin America and the Caribbean',
+          'fr-FR': 'Latin America and the Caribbean'
+        },
+        color: '#F69A4D',
+      },
+      'Asia': {
+        name: {
+          'en-EN': 'Asia',
+          'es-ES': 'Asia',
+          'fr-FR': 'Asia'
+        },
+        color: '#8781A7',
+      },
+      'Europe': {
+        name: {
+          'en-EN': 'Europe',
+          'es-ES': 'Europe',
+          'fr-FR': 'Europe'
+        },
+        color: '#67B064',
+      },
+      'Northern America': {
+        name: {
+          'en-EN': 'Northern America',
+          'es-ES': 'Northern America',
+          'fr-FR': 'Northern America'
+        },
+        color: '#3393C1',
+      },
+      'Oceania': {
+        name: {
+          'en-EN': 'Oceania',
+          'es-ES': 'Oceania',
+          'fr-FR': 'Oceania'
+        },
+        color: '#FF0009',
+      }
+    },
     strings: {
       'en-EN': {
         no_answer: 'No answer ',
@@ -101,14 +151,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 	var highlightIndexId = {};
 	
   // TRANSLATE
-	var continentColors = {
-    'Africa':'#D97196',
-    'Latin America and the Caribbean':'#F69A4D',
-    'Asia':'#8781A7',
-    'Europe':'#67B064',
-    'Northern America':'#3393C1',
-    'Oceania':'#FF0009'
-  };
+	var continentColors = language_data.continent_colors;
 
 	var populationColors = ['#ffCCCD','#ff7f84','#ff0009','#B20006','#7f0004']
 	//['#006799','#2684B2','#4CA2CC','#72BFE5','#99DDFF'].reverse();blue 
@@ -180,13 +223,13 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 	continentLegend.append('circle')
 		.attr('cx', 10)
 		.attr('cy', -5)
-		.attr('fill',function(d){return d.value})
+		.attr('fill',function(d){return d.value.color})
 		.attr('r',5)
 	
 	continentLegend.append('text')		
 		.attr('x', 22)
 		.style("text-anchor", 'start')
-		.text(function(d){return d.key})
+		.text(function(d){return d.value.name[current_language]})
 
 	// population legend
 	var populationLegend = legenddiv.append('div')
@@ -1110,7 +1153,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 
 	function circleColour(d){
 		if (activeColour == 'pop') return populationQuantile(d['Population']);
-		else if (activeColour == 'reg') return continentColors[d['UN Region Level 2']]
+		else if (activeColour == 'reg') return continentColors[d['UN Region Level 2']].color
 		else if (activeColour == 'gdp'){
 			var gdp = d['GDP/Capita (per country) 2013 - World Bank Data'];
 			return wealthQuantile(gdp);
@@ -1118,7 +1161,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 	}
 	function circleColourQ(d){
 		if (activeColour == 'pop') return populationQuantile(dataByCity.get(d.Name)['Population']);
-		else if (activeColour == 'reg') return continentColors[dataByCity.get(d.Name)['UN Region Level 2']]
+		else if (activeColour == 'reg') return continentColors[dataByCity.get(d.Name)['UN Region Level 2']].color
 		else if (activeColour == 'gdp')	return wealthQuantile(dataByCity.get(d.Name)['GDP/Capita (per country) 2013 - World Bank Data'])
 	}
 	function colourBy(d){
