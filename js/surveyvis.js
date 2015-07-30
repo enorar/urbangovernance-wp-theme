@@ -148,7 +148,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 		.append('g')
 		.attr("transform","translate(0,20)")
 		.selectAll('.legendItem')
-		.data(['low income', 'middle income', 'high income'])
+		.data(['low income', 'middle income', 'high income'])  // TRANSLATE
 		.enter()
 		.append("g")
 		.attr("transform",function(d,i){ return "translate(0,"+ i*22 +")"})
@@ -387,7 +387,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 			.attr('y', height - 10)
 			.attr('x', 0)
 			.attr("text-anchor", "start")
-			.text('No answer ')
+			.text('No answer ')  // TRANSLATION
 			
 	}
 	function positionCirclesY(q,n,yRange) {		
@@ -1065,7 +1065,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 
 	function mouseover(d){
 		d3.selectAll('#city_'+d._id).classed('mouseover',true)
-		var textTooltip = '<div class="title">'+d.Name+', '+d.Country+'</div>Population: <strong>'+ numberWithCommas(d.Population)+'</strong>';
+		var textTooltip = '<div class="title">'+d.Name+', '+d.Country+'</div>Population: <strong>'+ numberWithCommas(d.Population)+'</strong>';  // TRANSLATION
 		tooltipdiv.html(textTooltip)
 			.style("top", d3.event.pageY - 40 + "px")
 			.style("left", d3.event.pageX + 25 + "px")
@@ -1098,7 +1098,8 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 			.attr('fill',"#D1CBC6")
 	}
 
-	function showCityInfo(){
+  // TRANSLATION
+	function showCityInfo(current_language){
 		cityInfo.style('display','block')
 		cityData.selectAll('div').remove()
 		var surveyDataCity = surveyDataByCity.get(citySelected);
@@ -1186,7 +1187,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 
 	
 	$( "#city-search" ).tokenInput(allCityNames, {
-		placeholder: 'Highlight cities',
+		placeholder: 'Highlight cities', // TRANSLATION
 		//resultsLimit:4,
 		onAdd: function (item) {
 			highlightCity(item.id);
@@ -1214,7 +1215,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 
 	$('#legendclose').click(function(){
       	$(this).text(function(i, text){
-          return text === "Hide Legend" ? "Show Legend" : "Hide Legend";
+          return text === "Hide Legend" ? "Show Legend" : "Hide Legend";  // TRANSLATION
       	})
 		$('.legendtoggle').slideToggle()
 	})
