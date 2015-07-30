@@ -30,6 +30,20 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       'en-EN': [ 'low income', 'middle income', 'high income' ],
       'es-ES': [ 'low income', 'middle income', 'high income' ],
       'fr-FR': [ 'low income', 'middle income', 'high income' ]
+    },
+    strings: {
+      'en-EN': {
+        no_answer: 'No answer ',
+        population: 'Population'
+      },
+      'es-ES': {
+        no_answer: 'No answer ',
+        population: 'Population'
+      },
+      'fr-FR': {
+        no_answer: 'No answer ',
+        population: 'Population'
+      },
     }
   };
   
@@ -429,7 +443,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 			.attr('y', height - 10)
 			.attr('x', 0)
 			.attr("text-anchor", "start")
-			.text('No answer ')  // TRANSLATION
+			.text(language_data.strings[current_language].no_answer)
 			
 	}
 	function positionCirclesY(q,n,yRange) {		
@@ -1107,7 +1121,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 
 	function mouseover(d){
 		d3.selectAll('#city_'+d._id).classed('mouseover',true)
-		var textTooltip = '<div class="title">'+d.Name+', '+d.Country+'</div>Population: <strong>'+ numberWithCommas(d.Population)+'</strong>';  // TRANSLATION
+		var textTooltip = '<div class="title">'+d.Name+', '+d.Country+'</div>' + language_data.strings[current_language].population + ': <strong>'+ numberWithCommas(d.Population)+'</strong>';
 		tooltipdiv.html(textTooltip)
 			.style("top", d3.event.pageY - 40 + "px")
 			.style("left", d3.event.pageX + 25 + "px")
