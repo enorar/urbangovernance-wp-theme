@@ -34,15 +34,33 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
     strings: {
       'en-EN': {
         no_answer: 'No answer ',
-        population: 'Population'
+        population: 'Population',
+        show_legend: 'Show Legend',
+        hide_legend: 'Hide Legend',
+        people_working_for_the_city_local_government: 'People working for the city/local government',
+        revenue: 'Revenue',
+        expenditure: 'Expenditure',
+        highlight_cities: 'Highlight cities'
       },
       'es-ES': {
         no_answer: 'No answer ',
-        population: 'Population'
+        population: 'Population',
+        show_legend: 'Show Legend',
+        hide_legend: 'Hide Legend',
+        people_working_for_the_city_local_government: 'People working for the city/local government',
+        revenue: 'Revenue',
+        expenditure: 'Expenditure',
+        highlight_cities: 'Highlight cities'
       },
       'fr-FR': {
         no_answer: 'No answer ',
-        population: 'Population'
+        population: 'Population',
+        show_legend: 'Show Legend',
+        hide_legend: 'Hide Legend',
+        people_working_for_the_city_local_government: 'People working for the city/local government',
+        revenue: 'Revenue',
+        expenditure: 'Expenditure',
+        highlight_cities: 'Highlight cities'
       },
     }
   };
@@ -1154,24 +1172,23 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 			.attr('fill',"#D1CBC6")
 	}
 
-  // TRANSLATION
-	function showCityInfo(current_language){
+	function showCityInfo(){
 		cityInfo.style('display','block')
 		cityData.selectAll('div').remove()
 		var surveyDataCity = surveyDataByCity.get(citySelected);
 		var dataCity = dataByCity.get(citySelected)
 		cityInfo.select('.city-name').text(dataCity.Name+', '+dataCity.Country)
 		
-		cityData.append('div').attr('class','title').text('Population')
+		cityData.append('div').attr('class','title').text(language_data.strings[current_language].population)
 		cityData.append('div').text(numberWithCommas(surveyDataCity.q0601)+' ('+surveyDataCity.q0602+')')
 		
-		cityData.append('div').attr('class','title').text('People working for the city/local government')
+		cityData.append('div').attr('class','title').text(language_data.strings[current_language].people_working_for_the_city_local_government)
 		cityData.append('div').text(surveyDataCity.q08)		
 
-		cityData.append('div').attr('class','title').text('Expenditure')
+		cityData.append('div').attr('class','title').text(language_data.strings[current_language].expenditure)
 		cityData.append('div').text(numberWithCommasDolarFormat(dataCity.Expenditure)	)	
 
-		cityData.append('div').attr('class','title').text('Revenue')
+		cityData.append('div').attr('class','title').text(language_data.strings[current_language].revenue)
 		cityData.append('div').text(numberWithCommasDolarFormat(dataCity.Revenue))	
 		
 	}	
@@ -1243,7 +1260,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 
 	
 	$( "#city-search" ).tokenInput(allCityNames, {
-		placeholder: 'Highlight cities', // TRANSLATION
+		placeholder: language_data.strings[current_language].highlight_cities,
 		//resultsLimit:4,
 		onAdd: function (item) {
 			highlightCity(item.id);
@@ -1271,7 +1288,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 
 	$('#legendclose').click(function(){
       	$(this).text(function(i, text){
-          return text === "Hide Legend" ? "Show Legend" : "Hide Legend";  // TRANSLATION
+          return text === language_data.strings[current_language].hide_legend ? language_data.strings[current_language].show_legend : language_data.strings[current_language].hide_legend;
       	})
 		$('.legendtoggle').slideToggle()
 	})
