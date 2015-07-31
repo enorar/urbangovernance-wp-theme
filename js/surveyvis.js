@@ -590,7 +590,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 				.domain(ydomain)
     			.rangeRoundBands([0, (height-paddingTop)], .2); 
 
-		positionCirclesMatrix(q,nRow,nCol,x.range(),y.range(), subtype)
+		positionCirclesMatrix(q,nRow,nCol,x.range(),y.range(),subtype)
 		showLabelsMatrix(q,rowTitles,colTitles,nRow,nCol,x.range(),y.range(), subtype)
 		// transition in two parts move circles to q position then show the multiple and hide the city circles
 		cityCircles.style('opacity',1)
@@ -695,7 +695,7 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 		var distanceVer = yRange[1]-yRange[0];
 		if (subtype == 'multi') var rateValue = 1; // only for matrix multi 
 		else rateValue = 4; // visualising only highest score			
-
+		
 		var qRaw = q.substring(0,3);
 			
 		for (var i = 0; i < nCol; i++) countArray[i] = 0;
@@ -707,6 +707,8 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 			.attr('class',q)
 		
 		var rateGroups = [];
+
+		var max = 0;
 		
 		for (var j = 0; j < nCol; j++) { 
 			for (var i = 1; i <= nRow; i++) { 
@@ -721,7 +723,6 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 				rateGroup.values = [];
 				
 				qValue = qRaw+row+rateGroup.column;
-				var max = 0;
 					
 				cities.forEach(function(d){		
 					if (surveyDataByCity.has(d.Name)){
@@ -747,7 +748,16 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 				rateGroups.push(rateGroup)
 			}
 		}
+		/// ----
 		var min = 20;
+		var rad = distanceVer/2;
+		// this is used to scale the rateGroups, the largest group will 
+		// be as big as the distance between rows (distanceVer)
+		// the other will be scale accordingly. Circle areas have been
+		// considered to compare rateGroups
+
+		var areaFactor = Math.pow(rad, 2)/max;  
+		if (areaFactor > 30) areaFactor = 30; // this is to avoid that the circles get too big
 		
 		qCircles.selectAll('.rate-groups')
 			.data(rateGroups)
@@ -755,20 +765,19 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 			.append('g')
 			.attr('class','rate-groups')
 			.each(function(d){
-				d._side = Math.sqrt(d.values.length) * 10.5;
+				d._side = 2* Math.sqrt(areaFactor * d.values.length)
 				var data = {
 				  name : "root",
 				  children : d.values
 				}
-	
+
 				var nodes = d3.layout.pack()
 				  	.value(function(d) { return d.size; })
 				  	.size([d._side, d._side])
-				  	.padding(0)
-					.nodes(data);
+				  	.padding(0)				  	
+					.nodes(data)					
 
 				nodes.shift();
-
 				if (nodes[0]) var radius = nodes[0].r;
 				if (radius < min) min = radius;
 				
@@ -1090,7 +1099,8 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 			d3.selectAll('#city_'+d._id).classed('selected',true)
 			qCircles.selectAll('#city_'+d._id).style('opacity',1)
 		}
-		
+
+		gBorders.select('.mapcircle').remove(); 		
 		gBorders.append('circle').attr('class','mapcircle')
 			.attr('cx', projection([d.POINT_X,d.POINT_Y])[0])
 			.attr('cy', projection([d.POINT_X,d.POINT_Y])[1])
@@ -1241,7 +1251,6 @@ var scrollVis = function(borders, cities, surveyData, titles, shortQuestions){
 		
 		if (activeQuestion =='q00') var title = '';
 		else var title = $.grep(shortQuestions, function(e){ return e.qcode == activeQuestion; })[0].theme;
-		//console.log('title',activeQuestion, shortQuestions)
 		d3.select('.theme-title').text(title);
 	};
 	
