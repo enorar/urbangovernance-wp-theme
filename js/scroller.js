@@ -36,7 +36,6 @@ function scroller() {
    */
   function scroll(els) {
     sections = els;
-	console.log('in scroll')
     // when window is scrolled call
     // position. When it is resized
     // call resize.
