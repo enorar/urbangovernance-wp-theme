@@ -4,7 +4,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
     colourByOptions: [
       { id: 'reg',
         name: {
-          'en-EN': 'World Region',
+          'en-GB': 'World Region',
           'es-ES': 'World Region',
           'fr-FR': 'World Region'
         }
@@ -12,7 +12,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       {
         'id':'pop',
         'name': {
-          'en-EN': 'Population',
+          'en-GB': 'Population',
           'es-ES': 'Population',
           'fr-FR': 'Population'
         }
@@ -20,21 +20,21 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       {
         'id':'gdp',
         'name': {
-          'en-EN': 'Wealth',
+          'en-GB': 'Wealth',
           'es-ES': 'Wealth',
           'fr-FR': 'Wealth'
         }
       }
     ],
     income_levels: {
-      'en-EN': [ 'low income', 'middle income', 'high income' ],
+      'en-GB': [ 'low income', 'middle income', 'high income' ],
       'es-ES': [ 'low income', 'middle income', 'high income' ],
       'fr-FR': [ 'low income', 'middle income', 'high income' ]
     },
     continent_colors: {
       'Africa': {
         name: {
-          'en-EN': 'Africa',
+          'en-GB': 'Africa',
           'es-ES': 'Africa',
           'fr-FR': 'Africa'
         },
@@ -42,7 +42,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       },
       'Latin America and the Caribbean': {
         name: {
-          'en-EN': 'Latin America and the Caribbean',
+          'en-GB': 'Latin America and the Caribbean',
           'es-ES': 'Latin America and the Caribbean',
           'fr-FR': 'Latin America and the Caribbean'
         },
@@ -50,7 +50,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       },
       'Asia': {
         name: {
-          'en-EN': 'Asia',
+          'en-GB': 'Asia',
           'es-ES': 'Asia',
           'fr-FR': 'Asia'
         },
@@ -58,7 +58,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       },
       'Europe': {
         name: {
-          'en-EN': 'Europe',
+          'en-GB': 'Europe',
           'es-ES': 'Europe',
           'fr-FR': 'Europe'
         },
@@ -66,7 +66,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       },
       'Northern America': {
         name: {
-          'en-EN': 'Northern America',
+          'en-GB': 'Northern America',
           'es-ES': 'Northern America',
           'fr-FR': 'Northern America'
         },
@@ -74,7 +74,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       },
       'Oceania': {
         name: {
-          'en-EN': 'Oceania',
+          'en-GB': 'Oceania',
           'es-ES': 'Oceania',
           'fr-FR': 'Oceania'
         },
@@ -82,7 +82,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       }
     },
     strings: {
-      'en-EN': {
+      'en-GB': {
         no_answer: 'No answer ',
         population: 'Population',
         show_legend: 'Show Legend',
