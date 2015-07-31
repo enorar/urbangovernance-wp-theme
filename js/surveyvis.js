@@ -1387,8 +1387,8 @@ function display(error, borders, cities, surveyData, titles, shortQuestions) {
   // display it
 
   // get current page language from the lang attribute of the html
-  // element (this is set by the polylang WP plugin)
-  var current_language = $('html').attr('lang');
+  // element (this is set by the polylang WP plugin); default is en-GB
+  var current_language = $('html').attr('lang') || 'en-GB';
 
 	var plot = scrollVis(current_language, borders, cities, surveyData, titles, shortQuestions)
   
