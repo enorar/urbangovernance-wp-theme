@@ -201,7 +201,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 
 	var themetitle = d3.select("#vis")
 		.append("div")
-		.attr('class','theme-title')
+		.attr('class','theme-title col-md-7 col-lg-9')
 	
 	d3.select('.legenddiv').append('div')
 		.attr('id','legendclose')
@@ -1000,7 +1000,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 	function showLabelsMatrixSingle(q,rowTitles,colTitles,nRow,nCol,xRange,yRange){
 		labelsGroup.selectAll("*").style('opacity',0).remove()
 
-		paddingLeft = 110, marginTop = 40;
+		paddingLeft = 100, marginTop = 50;
 		
 		if (nRow== 1) var yHeight = 300;
 		else var yHeight = (yRange[1] - yRange[0]);
@@ -1029,7 +1029,7 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 			.enter()
 			.append('text')
 			.attr('class','label')
-			.attr('y', 20)
+			.attr('y', 30)
 			.attr("text-anchor", "start")
   			.attr("transform", function(d,i){ if (nRow == 1) return "translate("+ (xRange[i] + paddingLeft ) + ", 310)";
   				else return "translate("+ (xRange[i] + paddingLeft) + ","+ (height - 20)+")"})
@@ -1053,15 +1053,15 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
 			.attr('class','axis-line')
 			.attr('x1', paddingLeft - 10 )
 			.attr('x2', width-30)
-			.attr('y1', function(d,i){return yRange[i]+ yHeight-20; })
-			.attr('y2', function(d,i){return yRange[i]+ yHeight-20; })
+			.attr('y1', function(d,i){return yRange[i]+ yHeight-10; })
+			.attr('y2', function(d,i){return yRange[i]+ yHeight-10; })
 	}
 	
 	function positionCirclesMatrixSingle(q,nRow, nCol,xRange,yRange) {
 
 		var countArray = []; //dots for each bar
 		var resultValue;
-		var paddingHor = 10, paddingVer = 30, marginLeft = 120, marginTop = 0; //paddingVer includes space for amount
+		var paddingHor = 10, paddingVer = 30, marginLeft = 110, marginTop = 10; //paddingVer includes space for amount
 		var circlePad = 1;
 		var cityArray =[]; //cities which have already coordinates
 		
