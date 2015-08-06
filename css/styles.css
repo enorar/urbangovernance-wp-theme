@@ -250,6 +250,7 @@ circle.selected{
 
 }
 #city-info{
+	width:60%;
 	padding:15px;
 	margin-top:20px;
 	font-size: 14px;
@@ -403,11 +404,15 @@ input {
 .mail{
 	padding-top: 20px;
 	font-size: 14px;
-	font-weight: bold;
 	pointer-events:all;
 	text-align:right;
 }
-
+.mail a{
+	color:#AAAAAA;
+}
+.mail a:hover{
+	color:#777777;
+}
 .legend svg{
 	width: 220px;
 	height: 130px;

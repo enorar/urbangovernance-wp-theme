@@ -11,9 +11,9 @@ main li {
 	margin-bottom: 1em;
 }
 
-main h1, main h2, main h3, main h4, main h5, main h6 {
+/*main h1, main h2, main h3, main h4, main h5, main h6 {
 	margin-top: 1em;
-}
+}*/
 
 img.aligncenter {
 	display: block;
@@ -157,7 +157,6 @@ img.aligncenter {
 #main-column .attachment .entry-meta {
 	margin-bottom: 20px;
 }
-#main-column .post,
 #main-column .page {
 	margin-bottom: 20px;
 	padding: 10px 0;
@@ -198,11 +197,8 @@ img.aligncenter {
 	word-wrap: break-word;
 }
 
-
-
 #sidebar-left .widget,
 #sidebar-right .widget {
-	margin-bottom: 20px;
 	overflow: hidden;
 	padding: 10px 0;
 }
@@ -233,7 +229,6 @@ img.aligncenter {
 /*-- urban governance --*/
 html, body{
 	height: 100%;
-	font-size: 16px;
 }
 
 #main {
@@ -253,6 +248,9 @@ body {
 	padding:0;
 	margin:0;
 }
+.entry-content p{
+	font-size: 16px;
+}
 a {
 	color: #FF0009;
 	text-decoration: none;
@@ -271,7 +269,7 @@ a:hover {
 	border:0;
 	color: #FFF;
 	text-align: center;
-	font-size: 16px;
+	font-size: 1.5rem;
 	padding:8px 40px;
 }
 .red-button a{
@@ -295,12 +293,11 @@ Header and Primary Menu
 --------------------------------------------------------------*/
 .main-title{
 	background:#000000;
-	padding: 10px 0;
+	padding: 10px 0 20px 0;
 }
 .main-title h1 {
 	margin:0;
 	padding:0;
-
 }
 .main-title h1 a{
 	color: #FFF;
@@ -332,7 +329,7 @@ Header and Primary Menu
 .main-navigation li {
    float: left;
    position: relative;
-   padding-right: 1rem;
+   padding-right: 5px;
    list-style-type: none;
 }
 .main-navigation ul > li {
@@ -345,8 +342,7 @@ Header and Primary Menu
    	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-mozilla-border-radius: 4px;
-	padding: 0.25rem;
-	font-size: 0.875rem;
+	padding:8px 10px;
 }
 .main-navigation a:hover, .main-navigation .current_page_item a{
 	background:#F2EFED;
@@ -366,6 +362,8 @@ Header and Primary Menu
 .nav-breadcrumb a:hover{
 	color: #333333;
 }
+
+
 /*
 Select
 --------------------------------------------------------------*/
@@ -374,9 +372,9 @@ select#lang_choice_polylang-2{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	width: 120px;
+	width: 140px;
 	height: 36px;
-	font-size: 15px;
+	font-size: 1.5rem;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-mozilla-border-radius: 4px;
@@ -398,7 +396,7 @@ option {
 select option:hover{
 	background: #FFF;
 }
-/* study cases overview
+/* case studies overview
 --------------------------------------------------------------*/
 .post-block{
 	background: #FFFFFF;
@@ -428,19 +426,22 @@ select option:hover{
 
 }
 .blog #main-column .row{
-	margin:0 0 30px 0;
+	margin:0 0 15px 0;
 }
 .single .nav-breadcrumb {
     display: block;
 }
-/* study cases
+/* case studies
 --------------------------------------------------------------*/
+#sidebar-header-home{
+	font-size: 16px;
+}
+
 .single-post h1.entry-title a{
 	color: #333333;
 	font-size: 30px;
 }
 .single-post .site-content{
-	background: #FFFFFF;
 	color:#656565;
 	font-size: 16px;
 	padding-left:10px;
@@ -454,31 +455,42 @@ select option:hover{
 	display: none;
 }
 
-.single-post #sidebar-right .details{
-	margin:30px 10px;
-	padding: 10px 10px;
+.details{
+	background:#FFFFFF;
+	margin:0px 10px;
+	padding: 10px;
 	color:#999999;
 	border: 1px solid #DBDBDB;
    	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-mozilla-border-radius: 4px;	
 }
-.single-post #sidebar-right .details h4.title{
+.details h4.title{
 	margin-bottom: 2rem;
 	text-transform: uppercase;
 }
-.single-post #sidebar-right .details h4, .single-post #sidebar-right .details .widget-title {
+.details h4, .details .widget-title {
 	padding-bottom:0;
 	margin-bottom: 0.5rem;
 }
-.single-post #sidebar-right .details li{
+.details li{
    list-style-type: none;
-   padding: 0 0 0 1rem;
+   padding: 0;
+   color:#333333;
+   font-size:1.3rem;
 }
-.single-post #sidebar-right .details ul{
+.details ul, #sidebar-right .details .widget ul {
    padding:0;
    margin:0;
 }
+
+.single-post #sidebar-right .details{
+	margin:30px 10px;
+}
+.breadcrumbs{
+	padding-left:10px;
+}
+
 /* home
 --------------------------------------------------------------*/
 .home .entry-header{
@@ -497,7 +509,7 @@ select option:hover{
 .home-text-container {
 	background: #FFFFFF;
 	margin:0;
-	padding-bottom: 40px;
+	padding: 20px 0;
 	border-bottom: 3px solid #B7B2AD;
 }
 .home .content-area {
@@ -549,7 +561,7 @@ select option:hover{
 	background: #F44228;
 	color: white;
 	text-align: center;
-	font-size: 16px;
+	font-size: 1.5rem;
 	padding:8px 0px;
 }
 .overlay .bottom:hover{
@@ -572,16 +584,16 @@ select option:hover{
 	clear: both;
 	padding: 1rem 0;
 }
-.logos {
-	background: #000000;
-	color:#FFFFFF;
+.footer-title{
+	padding-left: 15px;
+	padding-right: 8px;
+	margin-top:0;
 	text-transform: uppercase;
 	font-size: 13px;
-	padding:10px 0;
+	color:#FFFFFF;
 }
-.logos img {
-	max-width: 190px;  /* make sure logos are exactly this size to avoid upscaling */
-	width: 100%;	
+.logos {
+	background: #000000;
 }
 .logos a {
 	margin-bottom: 2rem;
