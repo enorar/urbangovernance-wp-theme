@@ -20,7 +20,6 @@ get_header();
 <div class='vis-header container' id="sticker1" >
 	<div class="row">
 		<div class="col-xs-12 col-md-3 borderright">
-			<!--div class="theme-title pull-left">Theme title</div-->
 			<div class="next-previous pull-right">
 				<span class="pull-left" id="previous">previous</span>
 				<span class="pull-right" id="next">next</span>				
@@ -59,11 +58,11 @@ get_header();
 		<div class="col-md-9 no-gutter">
 			<div id='vis'>
 	  		</div>
-	  		<div class="col-md-9 logos-vis">
+	  		<div class="col-sm-7 logos-vis">
 			<h4>How Cities are Governed</h4>
 			A global survey by LSE Cities, UN-Habitat and UCLG	
 			</div>
-			<div class="col-md-3 logos-vis"><div class='mail'><a href="mailto:survey@urbangovernance.net">Send us your feedback</a></div></div>
+			<div class="col-sm-5 logos-vis"><div class='mail'><a href="mailto:survey@urbangovernance.net">Send us your feedback</a></div></div>
 		</div>
 	</div>
 </div>

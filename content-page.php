@@ -30,9 +30,13 @@ $aside = $pod->display('aside');
 	</div><!-- .entry-content -->
 	
 	<?php if(!empty($aside)) : ?>
-	<aside class="col-md-3">
-	<?php echo $aside; ?>
-	</aside>
+	<div class="col-md-3">
+		<div class="details">
+			<aside>
+				<?php echo $aside; ?>
+			</aside>
+		</details>
+	</div>
 	<?php endif; // (!empty($aside)) ?>
 	
 	<footer class="entry-meta">
