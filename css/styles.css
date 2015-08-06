@@ -434,15 +434,10 @@ input {
 	padding:0;
 	margin:0;
 }
-@media(max-width:767px){}
-@media(min-width:768px){
-	/*.vis-header {
-		border-left: 1px #DBDBDB solid;	
-		border-right: 1px #DBDBDB solid;
-	}*/
-
-}
 @media(min-width:992px){
+	#city-info{
+		width:100%;
+	}
 	.borderleft{
 		border-left: 1px #DBDBDB solid;
 	}
@@ -455,12 +450,10 @@ input {
 	#vis{
 		border-top:0;
 	}
-	.colourby{
-		margin:5px 0 0 30px;
-	}
-}
 
-@media(min-width:1200px){
+	.step {
+		width:auto;
+	}
 	.legenddiv{
 		top: 0px;
 		padding:0 0 20px 0;
@@ -501,10 +494,13 @@ input {
 		display:block;
 		height:34px;
 	}
+}
+
+@media(min-width:1200px){
 	.dropdown #mainitem,.dropdown #subitem{
 		width:150px;
 	}
-	.step {
-		width:auto;
+	.colourby{
+		margin:5px 0 0 30px;
 	}
 }

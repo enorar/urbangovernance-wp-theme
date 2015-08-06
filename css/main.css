@@ -680,11 +680,20 @@ circle.selected{
 	padding:2px 4px;
 	pointer-events: none;
 }
+@media(min-width:768px){
+	.logos a {
+		margin-bottom: 0;
+	}
+}
+
 @media(min-width:1200px){
 	#site-footer {
 		min-height: 100px;
 	}
 	.single-post .site-content{
 		margin-bottom:100px;	
+	}
+	.main-navigation a {
+		padding:8px 20px;
 	}
 }
