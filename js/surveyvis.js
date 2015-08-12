@@ -5,15 +5,15 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       { id: 'reg',
         name: {
           'en-GB': 'World Region',
-          'es-ES': 'World Region',
-          'fr-FR': 'World Region'
+          'es-ES': 'Región del Mundo',
+          'fr-FR': 'Région du monde'
         }
       },
       {
         'id':'pop',
         'name': {
           'en-GB': 'Population',
-          'es-ES': 'Population',
+          'es-ES': 'Población',
           'fr-FR': 'Population'
         }
       },
@@ -21,30 +21,30 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
         'id':'gdp',
         'name': {
           'en-GB': 'Wealth',
-          'es-ES': 'Wealth',
-          'fr-FR': 'Wealth'
+          'es-ES': 'Riqueza',
+          'fr-FR': 'Richesse'
         }
       }
     ],
     income_levels: {
       'en-GB': [ 'low income', 'middle income', 'high income' ],
-      'es-ES': [ 'low income', 'middle income', 'high income' ],
-      'fr-FR': [ 'low income', 'middle income', 'high income' ]
+      'es-ES': [ 'ingreso bajo', 'ingreso medio', 'ingreso alto' ],
+      'fr-FR': [ 'bas revenus', 'revenus moyens', 'haut revenus' ]
     },
     continent_colors: {
       'Africa': {
         name: {
           'en-GB': 'Africa',
-          'es-ES': 'Africa',
-          'fr-FR': 'Africa'
+          'es-ES': 'África',
+          'fr-FR': 'Afrique'
         },
         color: '#D97196',
       },
       'Latin America and the Caribbean': {
         name: {
           'en-GB': 'Latin America and the Caribbean',
-          'es-ES': 'Latin America and the Caribbean',
-          'fr-FR': 'Latin America and the Caribbean'
+          'es-ES': 'América Latina y el Caribe',
+          'fr-FR': 'Amerique Latine et Caraibes'
         },
         color: '#F69A4D',
       },
@@ -52,14 +52,14 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
         name: {
           'en-GB': 'Asia',
           'es-ES': 'Asia',
-          'fr-FR': 'Asia'
+          'fr-FR': 'Asie'
         },
         color: '#8781A7',
       },
       'Europe': {
         name: {
           'en-GB': 'Europe',
-          'es-ES': 'Europe',
+          'es-ES': 'Europa',
           'fr-FR': 'Europe'
         },
         color: '#67B064',
@@ -67,16 +67,16 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
       'Northern America': {
         name: {
           'en-GB': 'Northern America',
-          'es-ES': 'Northern America',
-          'fr-FR': 'Northern America'
+          'es-ES': 'Norteamérica',
+          'fr-FR': 'Amerique du Nord'
         },
         color: '#3393C1',
       },
       'Oceania': {
         name: {
           'en-GB': 'Oceania',
-          'es-ES': 'Oceania',
-          'fr-FR': 'Oceania'
+          'es-ES': 'Oceanía',
+          'fr-FR': 'Oceanie'
         },
         color: '#FF0009',
       }
@@ -93,24 +93,24 @@ var scrollVis = function(current_language, borders, cities, surveyData, titles, 
         highlight_cities: 'Highlight cities'
       },
       'es-ES': {
-        no_answer: 'No answer ',
-        population: 'Population',
-        show_legend: 'Show Legend',
-        hide_legend: 'Hide Legend',
-        people_working_for_the_city_local_government: 'People working for the city/local government',
-        revenue: 'Revenue',
-        expenditure: 'Expenditure',
-        highlight_cities: 'Highlight cities'
+        no_answer: 'Sin respuesta',
+        population: 'Población',
+        show_legend: 'Ver Leyenda',
+        hide_legend: 'Esconder Leyenda',
+        people_working_for_the_city_local_government: 'Num. de personas empleadas por el gobierno local',
+        revenue: 'ingreso',
+        expenditure: 'gasto',
+        highlight_cities: 'Muestra la ciudad'
       },
       'fr-FR': {
-        no_answer: 'No answer ',
+        no_answer: 'Pas de réponse ',
         population: 'Population',
-        show_legend: 'Show Legend',
-        hide_legend: 'Hide Legend',
-        people_working_for_the_city_local_government: 'People working for the city/local government',
-        revenue: 'Revenue',
-        expenditure: 'Expenditure',
-        highlight_cities: 'Highlight cities'
+        show_legend: 'Montrer la légende',
+        hide_legend: 'Cacher la légende',
+        people_working_for_the_city_local_government: 'Nombre de personnes travaillant pour le gouvernement local',
+        revenue: 'Revenus',
+        expenditure: 'Dépenses',
+        highlight_cities: 'Montrer la ville'
       },
     }
   };
